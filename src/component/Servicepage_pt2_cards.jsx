@@ -8,7 +8,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-export default function App(props) {
+export default function Servicepage_pt2_cards(props) {
     const { img, width, height,padding } = props;
 
   return (

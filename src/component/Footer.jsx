@@ -6,7 +6,7 @@ import {
   MDBRow,
 } from 'mdb-react-ui-kit';
 
-export default function App() {
+export default function Footer() {
   return (
     <MDBFooter className='bg-secondary text-white text-center'>
       <MDBContainer className='p-4'>

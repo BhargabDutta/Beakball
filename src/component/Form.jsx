@@ -7,7 +7,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-export default function App() {
+export default function Form() {
 
   
   return (

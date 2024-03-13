@@ -8,7 +8,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 
-export default function App(props) {
+export default function Portfoliogrid_card(props) {
   return (
     <MDBCard>
       <MDBCardImage src={props.img} position='top' alt='...' />

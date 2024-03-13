@@ -2,11 +2,11 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 
-import Servicepage_pt2 from '../src/component/Servicepage_pt2';
+// import Servicepage_pt2 from '../src/component/Servicepage_pt2';
 import Homescreen from './component/Homescreen';
 import Contactpage from '../src/component/Contactpage';
 import Portfoliopage from './component/Portfoliopage';
-import Footer from './component/Footer';
+// import Footer from './component/Footer';
 import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
@@ -16,11 +16,11 @@ function App() {
 
   return (
     <>
-    {/* <Nav/> */}
-   
+    <Nav/>
+   {/* <Homescreen/> */}
     <BrowserRouter>
     <Routes>
-    <Route exact path='/Home' element={<Homescreen/>}/>
+    <Route exact path='/' element={<Homescreen/>}/>
     
       <Route path='/Service' element={<Servicepage/>}/>
       <Route path='/Contact' element={<Contactpage/>}/>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBTable, MDBTableHead, MDBTableBody } from 'mdb-react-ui-kit';
 
-export default function App() {
+export default function Service_whyneed() {
   return (
     <div style={{padding:"20px", background:"black"}}>
         <div style={{width:"100%", textAlign:"center", color:"white", fontSize:"25px", padding:"40px"}}>Why we need Virtual Reality?</div>

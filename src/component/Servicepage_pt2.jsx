@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import Servicepage_pt2_cards from '../component/Servicepage_pt2_cards';
 import camera from '../assets/camera.webp';
 import car from '../assets/car.webp';
-export default function App() {
+export default function Servicepage_pt2() {
   return (
     <MDBContainer>
       <MDBRow>

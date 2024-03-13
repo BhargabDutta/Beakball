@@ -9,7 +9,7 @@ import card5 from "../assets/card5.png";
 import card6 from "../assets/card6.png";
 import card7 from "../assets/card7.png";
 import card8 from "../assets/card8.png";
-export default function App() {
+export default function Portfoliogrid() {
     return (
         <div style={{overflow:"hidden",paddingTop:"40px"}}>
             <div style={{fontSize:"30px",padding:"23px",fontWeight:"bold"}}>Our Projects</div>
