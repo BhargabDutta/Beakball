@@ -20,11 +20,11 @@ function App() {
    
     <BrowserRouter>
     <Routes>
-    <Route exact path='/Home' element={<Homescreen/>}></Route>
+    <Route exact path='/Home' element={<Homescreen/>}/>
     {/* <Homescreen/> */}
-      <Route path='/Service' element={<Servicepage/>}></Route>
-      <Route path='/Contact' element={<Contactpage/>}></Route>
-      <Route path='/Portfolio' element={<Portfoliopage/>}></Route>
+      <Route path='/Service' element={<Servicepage/>}/>
+      <Route path='/Contact' element={<Contactpage/>}/>
+      <Route path='/Portfolio' element={<Portfoliopage/>}/>
     </Routes>
     </BrowserRouter>
     
