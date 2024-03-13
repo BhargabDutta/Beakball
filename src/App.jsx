@@ -22,7 +22,7 @@ function App() {
     <Routes>
     <Route exact path='/' element={<Homescreen/>}/>
     
-      <Route path='/Service' element={<Servicepage/>}/>
+      <Route path='/servicepage' element={<Servicepage/>}/>
       <Route path='/Contact' element={<Contactpage/>}/>
       <Route path='/Portfolio' element={<Portfoliopage/>}/>
     </Routes>

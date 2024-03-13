@@ -43,7 +43,7 @@ export default function Nav() {
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-              <MDBNavbarLink aria-current='page' href='/Service'>
+              <MDBNavbarLink aria-current='page' href='/servicepage'>
                   Service
                 </MDBNavbarLink>
                 {/* <NavLink to="/Service">Contact</NavLink> */}
