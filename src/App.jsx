@@ -10,7 +10,7 @@ import Footer from './component/Footer';
 import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
-import {Route, BrowserRouter, Routes} from 'react-router-dom';
+import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
 function App() {
 
@@ -20,11 +20,11 @@ function App() {
    
     <BrowserRouter>
     <Routes>
-    <Route exact path='/' element={<Homescreen/>}></Route>
+    <Route exact path='/Home' element={<Homescreen/>}></Route>
     {/* <Homescreen/> */}
-      <Route path='Service' element={<Servicepage/>}></Route>
-      <Route path='Contact' element={<Contactpage/>}></Route>
-      <Route path='Portfolio' element={<Portfoliopage/>}></Route>
+      <Route path='/Service' element={<Servicepage/>}></Route>
+      <Route path='/Contact' element={<Contactpage/>}></Route>
+      <Route path='/Portfolio' element={<Portfoliopage/>}></Route>
     </Routes>
     </BrowserRouter>
     
