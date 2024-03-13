@@ -4,7 +4,7 @@ import "./App.css";
 
 import Servicepage_pt2 from '../src/component/Servicepage_pt2';
 import Homescreen from './component/Homescreen';
-import Contactpage from './component/Contactpage';
+import Contactpage from '../src/component/Contactpage';
 import Portfoliopage from './component/Portfoliopage';
 import Footer from './component/Footer';
 import Nav from './component/Nav';
