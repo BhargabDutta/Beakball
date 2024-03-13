@@ -7,7 +7,8 @@ import Homescreen from './component/Homescreen';
 import Contactpage from '../src/component/Contactpage';
 import Portfoliopage from './component/Portfoliopage';
 // import Footer from './component/Footer';
-import NavBar from './component/Navfolder/NavBar';
+// import NavBar from './component/Navfolder/NavBar';
+import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
 import { Route, BrowserRouter , Routes} from 'react-router-dom';
@@ -17,7 +18,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <NavBar/>
+    {/* <NavBar/> */}
+    <Nav/>
       <Routes>
         
       <Route index element={<Homescreen />} />
