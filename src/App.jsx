@@ -7,25 +7,24 @@ import Homescreen from './component/Homescreen';
 import Contactpage from '../src/component/Contactpage';
 import Portfoliopage from './component/Portfoliopage';
 // import Footer from './component/Footer';
-import Nav from './component/Nav';
+import NavBar from './component/Navfolder/NavBar';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
-import { Route, BrowserRouter, Routes} from 'react-router-dom';
+import { Route, BrowserRouter , Routes} from 'react-router-dom';
 
 function App() {
 
   return (
     <>
-    <Nav/>
-   {/* <Homescreen/> */}
     <BrowserRouter>
-    <Routes>
-    <Route exact path='/' element={<Homescreen/>}/>
-    
-      <Route path='/servicepage' element={<Servicepage/>}/>
-      <Route path='/Contact' element={<Contactpage/>}/>
-      <Route path='/Portfolio' element={<Portfoliopage/>}/>
-    </Routes>
+    <NavBar/>
+      <Routes>
+        
+      <Route index element={<Homescreen />} />
+          <Route path="service" element={<Servicepage />} />
+          <Route path="contact" element={<Contactpage />} />
+          <Route path="portfolio" element={<Portfoliopage/>} />
+      </Routes>
     </BrowserRouter>
     
 

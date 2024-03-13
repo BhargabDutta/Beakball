@@ -39,16 +39,16 @@ export default function Nav() {
             <MDBNavbarNav className='me-auto mb-2 mb-lg-0' style={{paddingLeft:"70%"}}>
               <MDBNavbarItem className='active'>
                 <MDBNavbarLink aria-current='page' href='#'>
-                  About
+                  <Link to={'/portfoliopage'}>
+                  About</Link>
                 </MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
-              <MDBNavbarLink aria-current='page' href='/servicepage'>
-                  Service
+              <MDBNavbarLink aria-current='page' href='#'>
+                  <Link to={'/servicepage'}>Service</Link>
                 </MDBNavbarLink>
-                {/* <NavLink to="/Service">Contact</NavLink> */}
               </MDBNavbarItem>
-              <MDBNavbarItem>
+              {/* <MDBNavbarItem>
                 <MDBNavbarLink href='#'>Blog</MDBNavbarLink>
               </MDBNavbarItem>
               <MDBNavbarItem>
@@ -56,7 +56,7 @@ export default function Nav() {
               </MDBNavbarItem>
               <MDBNavbarItem style={{backgroundColor:"blue",borderRadius:"30px"}}>
                 <MDBNavbarLink href='/Contact' style={{color:"white",fontWeight:"bold"}}>Contact Us</MDBNavbarLink>
-              </MDBNavbarItem>
+              </MDBNavbarItem> */}
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
