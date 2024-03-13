@@ -10,7 +10,7 @@ import Footer from './component/Footer';
 import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
-import { BrowserRouter as Router , Route, BrowserRouter, Routes} from 'react-router-dom';
+import {Route, BrowserRouter, Routes} from 'react-router-dom';
 
 function App() {
 
