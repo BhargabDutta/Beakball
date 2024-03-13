@@ -16,12 +16,12 @@ function App() {
 
   return (
     <>
-    <Nav/>
+    {/* <Nav/> */}
    
     <BrowserRouter>
     <Routes>
     <Route exact path='/Home' element={<Homescreen/>}/>
-    {/* <Homescreen/> */}
+    
       <Route path='/Service' element={<Servicepage/>}/>
       <Route path='/Contact' element={<Contactpage/>}/>
       <Route path='/Portfolio' element={<Portfoliopage/>}/>
