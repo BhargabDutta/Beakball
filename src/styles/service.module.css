@@ -1,0 +1,92 @@
+.maincntr{
+    height: auto;
+    width: 100%;
+}
+.mainhead{
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.submainhead{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
+.switch{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.switchbtn1{
+    border-radius: 5px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.switchbtn2{
+    border-radius: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.switchbtn1,.switchbtn2:hover{
+    cursor: pointer;
+}
+.container1{
+    height: auto;
+    width: 100%;
+}
+.leftcntr{
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 3%;
+}
+.rightcntr{
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 3%;
+}
+.vrimg{
+    height: auto;
+    width: 200px;
+    /* border: 2px solid black; */
+}
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+.heading1{
+    margin-top: 85px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+.content{
+    color: black;
+    font-size: 16px;
+}
+.learnmore{
+    margin-top: 15px;
+
+    color: #f28415;
+    padding: 5px;
+    height: auto;
+    width: fit-content;
+    border:2px solid #f28415;
+}
+.learnmore:hover{
+    cursor: pointer;
+}

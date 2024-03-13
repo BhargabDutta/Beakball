@@ -1,0 +1,27 @@
+.full{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.content{
+    width: 2000px;
+    height: fit-content;
+    /* border: 2px solid blue; */
+}
+.content .fullcontainer{
+    flex: 1;
+}
+.fullcontainer{
+    padding: 5%;
+    background-color: grey;
+    /* color: aliceblue; */
+}
+@media only screen and (max-width:600px){
+    .full{
+        display: block;
+        flex-direction: none;
+    }
+    .content{
+        width: 100%;
+    }
+}

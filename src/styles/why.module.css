@@ -1,0 +1,27 @@
+.why{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.whyimg{
+    height: 100px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    filter: brightness(50%);
+    background-color: black;
+}
+
+.contentpart{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    top: 900px;
+}

@@ -1,0 +1,12 @@
+.heading{
+    width: 100%;
+    text-align: center;
+    font-family: sans;
+    /* font-weight: bold; */
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.table_need{
+    padding: 50px;
+    background-color: #000;
+}

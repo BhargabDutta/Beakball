@@ -1,0 +1,26 @@
+.maincntr{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.subhead{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+
+}
+.mainhead{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 20px;
+    color: white;
+}

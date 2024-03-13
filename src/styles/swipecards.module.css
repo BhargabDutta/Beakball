@@ -1,0 +1,35 @@
+.card{
+    margin: 10px;
+    width: 150px;
+    height: auto;
+    width: fit-content;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+}
+.heading{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color:white;
+    font-weight: bold;
+}
+.contentpart{
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    height: auto;
+}
+.content{
+    font-family: sans-serif;
+    font-size:13px;
+    margin-top: 10px;
+    width: 270px;
+}
+.img{
+    height: 270px;
+    width: 270px;
+    border-radius:10px;
+}
+.imgpart{
+    padding: 10px;
+}

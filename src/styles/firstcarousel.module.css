@@ -1,0 +1,16 @@
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: black;
+    text-align: center;
+}
+.subheading{
+    text-align: center;
+
+}
+.carouselpart{
+    margin-top: 30px;
+}
