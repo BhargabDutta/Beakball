@@ -101,3 +101,42 @@
   border-radius: 10px;
   margin: 40px;
 }
+@media only screen and (max-width:600px){
+  .head{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    width: 400px;
+    height: auto;
+    font-weight: bold;
+    padding: 0px;
+    
+    text-align: left;
+
+  }
+  .content{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    width: 100vw;
+    height: auto;
+    /* margin-top: 30px; */
+    /* border: 2px solid red; */
+  
+    
+  }
+  .flexcntr{
+    display: block;
+    /* flex-direction: row; */
+    width: 100vw;
+    height: auto;
+    background: #000;
+    /* border: 2px solid red; */
+  }
+  .img{
+    width:100px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px;
+  }
+}
