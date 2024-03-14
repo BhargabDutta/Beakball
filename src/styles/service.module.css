@@ -1,21 +1,23 @@
 .maincntr{
     height: 100vh;
     width: 100%;
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     /* padding:20px; */
     padding-left:40px;
     padding-right: 40px;
+    margin-bottom: 50px;
+
     /* margin-bottom: 30px; */
 }
 .mainhead{
     text-align: center;
     font-size: 35px;
-    color: blue;
+    color: black;
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 15px;
     /* border: 2px solid blue; */
-    /* padding: "30px"; */
+    /* padding: 30px; */
 }
 .submainhead{
     margin-top: 15px;
