@@ -18,7 +18,7 @@ const Testimonialslider = () => {
 >
     <SwiperSlide>
         <Testimonialcards
-        message="Dive into the immersive world they've crafted and experience innovation firsthand on their groundbreaking VR platform. Don't miss it out!"
+        message="“Dive into the immersive world they've crafted and experience innovation firsthand on their groundbreaking VR platform. Don't miss it out!"
         
         name="OMKAR GOSWAMI"
         
@@ -31,7 +31,7 @@ const Testimonialslider = () => {
         
         name="Roshan Kumar Yadav"
         
-        designation="Engineer@Morgan Stanley"/>
+        designation="Site Reliability Engineer@Morgan Stanley"/>
     </SwiperSlide>
 
     <SwiperSlide>
@@ -40,7 +40,7 @@ const Testimonialslider = () => {
         
         name="ANKIT AGARWAL"
         
-        designation="Salesforce Developer || FSE || Accenture"/>
+        designation="Salesforce Developer @ Accenture"/>
     </SwiperSlide>
 
 
@@ -52,6 +52,16 @@ const Testimonialslider = () => {
         
         designation="Citi Group | BMW Finance"/>
     </SwiperSlide>
+
+    <SwiperSlide>
+        <Testimonialcards
+        message="“It is nice, i was able to understand the path and navigate towards it. I think this will change the navigation of business. It was a very nice experience with the interactives.”"
+        
+        name="Rohan Singh"
+        
+        designation="SSE | Accenture"/>
+    </SwiperSlide>
+
 
 </Swiper>
 </div>

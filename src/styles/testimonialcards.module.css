@@ -1,16 +1,20 @@
 .card{
     height: 250px;
-    width: 300px;
+    width: 320px;
     border-radius: 20px;
     background: white;
-    /* border: 2px solid black; */
+    border: 2px solid black;
 }
 .content{
     margin-top: 20px;
     font-size: 14px;
     font-family: sans-serif;
     color: black;
-    padding: 15px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding: 15px; */
+    /* padding-top: 10px; */
     /* border: 2px solid red; */
 }
 .bottombox{
@@ -19,6 +23,10 @@
     padding: 10px;
     position: absolute;
     bottom: 0;
+    /* border: 2px solid blue; */
+    width:320px;
+    height: 90px;
+    /* font-size: 5px; */
 }
 .img{
     height:fit-content;
@@ -31,5 +39,4 @@
     width: fit-content;
     height: fit-content;
     padding: 10px;
-    /* margin-top:50px; */
 }
