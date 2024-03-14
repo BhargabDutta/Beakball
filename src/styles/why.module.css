@@ -14,8 +14,9 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-    filter: brightness(50%);
+    filter: brightness(30%);
     background-color: black;
+    overflow: hidden;
 }
 
 .contentpart{
@@ -23,5 +24,5 @@
     z-index: 2;
     width: 100%;
     height: auto;
-    top: 900px;
+    top: 1000px;
 }
