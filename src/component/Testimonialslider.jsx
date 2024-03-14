@@ -11,10 +11,11 @@ const Testimonialslider = () => {
         <div className={styles.mainhead}>Testimonials</div>
 
     <Swiper
-    spaceBetween={50}
-    slidesPerView={4}
+    spaceBetween={370}
+    slidesPerView={4.5}
     onSlideChange={() => console.log('slide change')}
     onSwiper={(swiper) => console.log(swiper)}
+    
 >
     <SwiperSlide>
         <Testimonialcards
