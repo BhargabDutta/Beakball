@@ -9,6 +9,7 @@ import Testimonialslider from './Testimonialslider';
 import Success from './Success';
 import Lastpartofhomescreen from './Lastpartofhomescreen';
 import backgroundVideo from '../assets/test.mp4'; // Import your video file
+import Successpt2 from './Successpt2';
 
 const Homescreen = () => {
   return (
@@ -49,7 +50,7 @@ const Homescreen = () => {
         <Testimonialslider />
       </div>
 
-      <Success />
+      <Successpt2 />
       <Contactus />
       <Lastpartofhomescreen />
     </div>

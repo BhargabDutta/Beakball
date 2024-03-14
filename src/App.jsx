@@ -12,13 +12,13 @@ import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
 import { Route, BrowserRouter , Routes} from 'react-router-dom';
-
+import Successpt2 from './component/Successpt2';
 function App() {
 
   return (
     <>
     <BrowserRouter>
-    {/* <NavBar/> */}
+    
     <Nav/>
       <Routes>
         
