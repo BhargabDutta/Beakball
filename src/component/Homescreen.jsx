@@ -1,5 +1,4 @@
 import React from 'react';
-// import Nav from './Nav';
 import styles from '../styles/Homescreen.module.css';
 import Contactus from './Contactus';
 import Why from './Why';
@@ -9,15 +8,20 @@ import Firstcarousel from './Firstcarousel';
 import Testimonialslider from './Testimonialslider';
 import Success from './Success';
 import Lastpartofhomescreen from './Lastpartofhomescreen';
+import backgroundVideo from '../assets/test.mp4'; // Import your video file
+
 const Homescreen = () => {
   return (
     <div>
       <div className={styles.section1}>
-      <iframe src="https://bannerbeakballmain.netlify.app/" title="beakball"></iframe> 
+        <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: 2, fontSize:"25px", color:"white", display:"flex", alignItems:"center",justifyContent:"center" }}>Hello, Welcome to BeakBall</div>
+        <video autoPlay loop muted controls={false}>
+          <source src={backgroundVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <div className={styles.section2}>
-
         <Why />
       </div>
 
@@ -35,16 +39,13 @@ const Homescreen = () => {
 
       <div className={styles.section5}>
         <Testimonialslider />
-
       </div>
 
-
-<Success/>
-
+      <Success />
       <Contactus />
-      <Lastpartofhomescreen/>
+      <Lastpartofhomescreen />
     </div>
-  )
-}
+  );
+};
 
 export default Homescreen;

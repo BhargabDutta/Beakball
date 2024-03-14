@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-.section1>iframe{
+.section1>video{
     width: 100%;
-    height: 100vh;
+    height: auto;
     /* margin-top:60px; */
     background-color: #0d0c22;
     /* border: none; */
