@@ -6,21 +6,29 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    filter: brightness(60%);
-    position: absolute;
+    /* filter: brightness(60%); */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .box{
-    position:absolute;
-    z-index: 2;
-    left: 0;
+    /* position: relative; */
+    /* z-index: 2; */
+    width: 100%;
+    /* left: 0;
     right: 0;
-    top: 870vw;
-    bottom: 0;
-    margin: auto;
+    top: 800px; */
+    /* bottom: 0; */
+    /* margin: auto; */
     /* border: 2px solid red; */
-    width: fit-content;
-    height: fit-content;
+    /* width: fit-content;
+    height: fit-content; */
+
+    
+    /* height: auto; */
+    /* margin-top: 300px; */
 }
 .text{
     color: white;
