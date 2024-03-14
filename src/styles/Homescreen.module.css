@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 60px;
     padding: 0;
 }
 
@@ -13,9 +13,7 @@
     overflow-y: scroll;
     /* scrollbar-color: red orange; */
     border: none; /* Removes the iframe border */
-        margin: 0;
-        padding: 0;
-        overflow: hidden; /* Hides any content overflow */
+    overflow: hidden; /* Hides any content overflow */
 }
 .section2{
     height: 125vh;
