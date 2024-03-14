@@ -6,8 +6,8 @@ const Nav = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid" style={{fontWeight:"bold"}}>
-          <img src={Logo} style={{width:"40px",height:"auto"}}/>
-          <NavLink className="navbar-brand" to="/" style={{paddingLeft:"10px"}}>Beakball</NavLink>
+          <img src={Logo} style={{width:"40px",height:"auto",marginLeft:"30px"}}/>
+          <NavLink className="navbar-brand" to="/" style={{paddingLeft:"10px",fontSize:"30px"}}>Beakball</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
