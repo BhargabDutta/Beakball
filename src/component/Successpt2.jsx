@@ -5,7 +5,7 @@ import success2 from "../assets/success2.png";
 import success3 from "../assets/success3.png";
 const Successpt2 = () => {
     return (
-        <div style={{padding:"200px"}}>
+        <div>
             <div id="carouselExampleDark" className="carousel carousel-dark slide">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
