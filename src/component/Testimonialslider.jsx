@@ -27,7 +27,7 @@ const Testimonialslider = () => {
 
     <SwiperSlide>
         <Testimonialcards
-        message="“Used Beakball to see a College Campus, felt like i got a real tour from afar”"
+        message="“Used Beakball to see a College Campus, felt like i got a real tour from afar. It was actually a short and nice experience. Great work!!!”"
         
         name="Roshan Kumar Yadav"
         
@@ -36,7 +36,7 @@ const Testimonialslider = () => {
 
     <SwiperSlide>
         <Testimonialcards
-        message="“I have used geo location apps previously but giving it a sound effect and providing description to the tour was something new that I experienced. It was actually a short and nice experience. Great work!!!”"
+        message="“I have used geo location apps previously but giving it a sound effect and providing description to the tour was something new that I experienced.”"
         
         name="ANKIT AGARWAL"
         
