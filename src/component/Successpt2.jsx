@@ -16,22 +16,22 @@ const Successpt2 = () => {
                     <div className="carousel-item active" data-bs-interval="10000">
                         <img src={success1} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block" style={{color:"white"}}>
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <h5 style={{fontSize:"60px",color:"white"}}>BARAK VALLEY ENGINEERING COLLEGE</h5>
+                            <p style={{color:"white",fontSize:"20px"}}>Campus Tour with Voice Assistance guide</p>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="2000">
                         <img src={success2} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h5 style={{fontSize:"60px",color:"white"}}>Hotel Building Sample</h5>
+                            <p style={{color:"white",fontSize:"20px"}}>Hotel services and facilities</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src={success3} className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h5 style={{fontSize:"60px",color:"white"}}>Virtual Theatre for Movie Premier</h5>
+                            <p style={{color:"white",fontSize:"20px"}}>Virtual Movie trailers and ticketing system</p>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Successpt2 = () => {
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" >
+                    <span className="carousel-control-next-icon" aria-hidden="true" ></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
