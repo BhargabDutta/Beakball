@@ -15,7 +15,7 @@ const Homescreen = () => {
     <div>
       <div className={styles.section1}>
         <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: 2, fontSize:"25px", color:"white", display:"flex", alignItems:"center",justifyContent:"center" }}>
-          <div style={{width:"100%",height:"auto",padding:"40px",marginTop:"300px"}}>
+          <div style={{width:"100%",height:"auto",padding:"80px",marginTop:"300px"}}>
             <div style={{color:"white", fontSize:"30px",fontWeight:"bold"}}>Beakball: Interactive 3D Virtual Reality</div>
             <div style={{color:"white", fontSize:"30px",fontWeight:"bold"}}>Unlock New Dimensions</div>
             <div style={{color:"white", fontSize:"30px",fontWeight:"bold"}}>Where Your Brand’s Vision Meets Virtual Reality</div>
