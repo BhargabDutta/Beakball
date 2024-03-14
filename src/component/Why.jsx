@@ -7,7 +7,7 @@ const Why = () => {
     <div>
       <div className={style.why}>
 
-        <div className={style.imageContainer} style={{ width: "100%", height: "850px", overflow: "hidden" }}>
+        <div className={style.imageContainer} style={{ width: "100%", height: "670px", overflow: "hidden" }}>
           <img className={style.whyimg} src={Whychoose} style={{ width: "100%", objectFit: "cover", marginTop: "-100px" }} alt="why choose" />
         </div>
 

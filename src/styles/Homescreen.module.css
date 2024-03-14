@@ -15,12 +15,12 @@
     border: none; /* Removes the iframe border */
     overflow: hidden; /* Hides any content overflow */
 }
-.section2{
+/* .section2{
     height: 125vh;
     width: 100%;
     align-items: center;
     justify-content: center;
-}
+} */
 .section3{
     height: 100vh;
     width: 100vw;
