@@ -19,7 +19,7 @@ const Services = () => {
       };
 
     return (
-        <div style={{height:"fit-content",border:"2px solid red"}}>
+        <div style={{height:"fit-content",border:"2px solid",marginTop:"30px"}}>
             <div className={style.maincntr}>
                 <div className={style.mainhead}>Our Services</div>
                 <div className={style.submainhead}>Online presence is the base of business and we inject creativity added with innovation to this base. </div>
