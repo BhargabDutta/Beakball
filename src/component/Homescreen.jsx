@@ -13,7 +13,7 @@ const Homescreen = () => {
   return (
     <div>
       <div className={styles.section1}>
-      <iframe src="https://bannerbeakball.netlify.app/" title="beakball"></iframe> 
+      <iframe src="https://bannerbeakballmain.netlify.app/" title="beakball"></iframe> 
       </div>
 
       <div className={styles.section2}>
