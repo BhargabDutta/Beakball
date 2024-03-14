@@ -22,7 +22,7 @@ const Cardslider = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <Swipecards 
-                imgsrc={second} heading="Real Estate" content="Redefine the way of property showcasing with an interactive virtual staging. Cover more tours to varieties at different locations and close more deals."
+                imgsrc={second} heading="Real Estate" content="Redefine the way of property showcasing with an interactive virtual staging. Cover more tours to varieties at different locations."
                 backgroundColor="#4e4749"/>
             </SwiperSlide>
             <SwiperSlide>
@@ -43,7 +43,7 @@ const Cardslider = () => {
             </SwiperSlide>
             <SwiperSlide>
                 <Swipecards 
-                imgsrc={sixth} heading="Infrastructure Projects" content="Enhance public engagement with private and government projects through 360-degree interaction technology, making information accessible and engaging."
+                imgsrc={sixth} heading="Infrastructure Projects" content="Enhance public engagement with private and government projects through 360-degree interaction technology."
                 backgroundColor="#807b7e"/>
             </SwiperSlide>
             ...
