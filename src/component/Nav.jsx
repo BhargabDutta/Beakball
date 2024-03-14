@@ -14,19 +14,19 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarNav" style={{display:"flex",justifyContent:"right"}}>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" exact to="/">Home</NavLink>
+                <NavLink className="nav-link active" aria-current="page" exact to="/" style={{margin:"10px"}}>Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">About</NavLink>
+                <NavLink className="nav-link" to="/about" style={{margin:"10px"}}>About</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/service">Service</NavLink>
+                <NavLink className="nav-link" to="/service" style={{margin:"10px"}}>Service</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/portfolio">Portfolio</NavLink>
+                <NavLink className="nav-link" to="/portfolio" style={{margin:"10px"}}>Portfolio</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact" style={{borderRadius:"30px",backgroundColor:"blue",color:"white",width:"max-content"}}>Contact Us</NavLink>
+                <NavLink className="nav-link" to="/contact" style={{borderRadius:"30px",backgroundColor:"blue",color:"white",width:"max-content",margin:"10px"}}>Contact Us</NavLink>
               </li>
             </ul>
           </div>
