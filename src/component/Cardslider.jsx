@@ -157,7 +157,7 @@ const Cardslider = () => {
 
         const interval = setInterval(() => {
             slider.slideNext();
-        }, 1000); // Adjust delay as needed, it's in milliseconds (5000ms = 5 seconds)
+        }, 2000); // Adjust delay as needed, it's in milliseconds (5000ms = 5 seconds)
 
         return () => clearInterval(interval);
     }, []);
