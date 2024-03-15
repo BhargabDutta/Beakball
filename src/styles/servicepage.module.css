@@ -2,6 +2,18 @@
     margin: 0;
     padding: 0;
 }
+.hero>video{
+    width: 100%;
+    height: auto;
+    /* margin-top:60px; */
+    background-color: #0d0c22;
+    /* border: none; */
+    /* scrollbar-width:100px; */
+    overflow-y: scroll;
+    /* scrollbar-color: red orange; */
+    border: none; /* Removes the iframe border */
+    overflow: hidden; /* Hides any content overflow */
+}
 .hero{
     width: 100%;
     height: auto;

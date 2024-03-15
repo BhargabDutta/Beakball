@@ -1,11 +1,11 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import Servicepage_pt2_cards from '../component/Servicepage_pt2_cards';
-import camera from '../assets/camera.webp';
-import car from '../assets/car.webp';
+import camera from '../assets/camera.png';
+import car from '../assets/car.png';
 export default function Servicepage_pt2() {
   return (
-    <MDBContainer>
+    <MDBContainer style={{marginTop:"50px"}}>
       <MDBRow>
         <MDBCol size='md'>
           <Servicepage_pt2_cards
@@ -17,7 +17,7 @@ export default function Servicepage_pt2() {
         <MDBCol size='md'>
         <Servicepage_pt2_cards
         img={car}
-        width="400px" height="auto" padding="70px"
+        width="450px" height="auto" padding="0px"
         title="AI Generated 3D World"
         content="Leverage the power of Artificial Intelligence to impart a virtual tour on your website. Bring astonishing landscapes and components to your page and boost the overall visitor experience. "/>
         </MDBCol>
