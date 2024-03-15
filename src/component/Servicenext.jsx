@@ -3,14 +3,16 @@ import style from '../styles/servicenext.module.css';
 import boximg1 from '../assets/boximg1.webp';
 import boximg2 from '../assets/boximg2.webp';
 import vrimg from '../assets/vrimg.png';
-import polygonal from '../assets/polygonal.png'
+import polygonal from '../assets/polygonal.png';
+import success2 from '../assets/success2.png';
+import servicenext2 from '../assets/servicenext2.png';
 const Servicenext = () => {
     return (
         <div>
             <div className={style.maincntr}>
                 <div className={style.box1}>
                     <div className={style.imgbox}>
-                        <img src={boximg1} className={style.box1img} />
+                        <img src={success2} className={style.box1img} />
                     </div>
 
                     <div className={style.contentbox}>
@@ -40,7 +42,7 @@ const Servicenext = () => {
                     </div>
 
                     <div className={style.imgbox}>
-                        <img src={boximg2} className={style.box1img} />
+                        <img src={servicenext2} className={style.box1img} />
                     </div>
                 </div>
             </div>

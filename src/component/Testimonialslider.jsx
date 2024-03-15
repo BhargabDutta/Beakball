@@ -3,6 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import Testimonialcards from './Testimonialcards';
 import styles from '../styles/testimonialslider.module.css';
+import hamid from '../assets/hamid.png';
+import omkar from '../assets/omkar.png';
+import rohan from '../assets/rohan.png';
+import roshan from '../assets/roshan.png';
+import ankit from '../assets/ankit.png';
 const Testimonialslider = () => {
   return (
     
@@ -22,7 +27,8 @@ const Testimonialslider = () => {
         
         name="OMKAR GOSWAMI"
         
-        designation="Analyst at HCL Technologies"/>
+        designation="Analyst at HCL Technologies"
+        testi_img={omkar}/>
     </SwiperSlide>
 
     <SwiperSlide>
@@ -31,7 +37,8 @@ const Testimonialslider = () => {
         
         name="Roshan Kumar Yadav"
         
-        designation="Site Reliability Engineer@Morgan Stanley"/>
+        designation="Site Reliability Engineer@Morgan Stanley"
+        testi_img={roshan}/>
     </SwiperSlide>
 
     <SwiperSlide>
@@ -40,7 +47,8 @@ const Testimonialslider = () => {
         
         name="ANKIT AGARWAL"
         
-        designation="Salesforce Developer @ Accenture"/>
+        designation="Salesforce Developer @ Accenture"
+        testi_img={ankit}/>
     </SwiperSlide>
 
 
@@ -50,7 +58,8 @@ const Testimonialslider = () => {
         
         name="Hamid Siddiqui"
         
-        designation="Citi Group | BMW Finance"/>
+        designation="Citi Group | BMW Finance"
+        testi_img={hamid}/>
     </SwiperSlide>
 
     <SwiperSlide>
@@ -59,7 +68,8 @@ const Testimonialslider = () => {
         
         name="Rohan Singh"
         
-        designation="SSE | Accenture"/>
+        designation="SSE | Accenture"
+        testi_img={rohan}/>
     </SwiperSlide>
 
 

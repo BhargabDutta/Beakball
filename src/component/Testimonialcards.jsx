@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/testimonialcards.module.css';
-import hamid from '../assets/hamid.png';
+
 const Testimonialcards = (props) => {
   return (
     <div className={styles.card}>
@@ -9,7 +9,7 @@ const Testimonialcards = (props) => {
         </div>
 
         <div className={styles.bottombox}>
-            <img className={styles.img} src={hamid}/>
+            <img className={styles.img} src={props.testi_img}/>
             <div className={styles.description}>
                 <div className={styles.name}>
                     {props.name}
