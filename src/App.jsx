@@ -14,6 +14,7 @@ import Servicepage from './component/Servicepage';
 import { Route, BrowserRouter , Routes} from 'react-router-dom';
 import Successpt2 from './component/Successpt2';
 import Successpt3 from './component/Successpt3';
+import Faq from './component/Faq';
 function App() {
 
   return (
@@ -30,7 +31,7 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-{/* <Successpt3/> */}
+{/* <Faq/> */}
 
 
       
