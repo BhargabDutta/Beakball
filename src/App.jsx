@@ -13,6 +13,7 @@ import Servicepage from './component/Servicepage';
 // import Pagee from "./component/Pagee";
 import { Route, BrowserRouter , Routes} from 'react-router-dom';
 import Successpt2 from './component/Successpt2';
+import Successpt3 from './component/Successpt3';
 function App() {
 
   return (
@@ -29,7 +30,7 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-
+{/* <Successpt3/> */}
 
 
       

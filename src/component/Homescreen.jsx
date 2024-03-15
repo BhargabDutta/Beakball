@@ -10,7 +10,7 @@ import Success from './Success';
 import Lastpartofhomescreen from './Lastpartofhomescreen';
 import backgroundVideo from '../assets/test.mp4'; // Import your video file
 import Successpt2 from './Successpt2';
-
+import Successpt3 from './Successpt3';
 const Homescreen = () => {
   return (
     <div>
@@ -51,6 +51,7 @@ const Homescreen = () => {
       </div>
 
       <Successpt2 />
+      {/* <Successpt3/> */}
       <Contactus />
       <Lastpartofhomescreen />
     </div>
