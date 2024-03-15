@@ -10,9 +10,11 @@ const Lastpartofhomescreen = () => {
                 <div className={styles.box}>
                     <div className={styles.text}>“What you can imagine,<br />
                         We bring it to you”</div>
+                        <div style={{display:"flex",width:"41%",left:0,right:0,margin:"auto",alignItems:"right",justifyContent:"right"}}>
                     <div className={styles.logo}>
                         <img className={styles.img} src={Logo} />
                         <div className={styles.company}>Beakball</div>
+                    </div>
                     </div>
 
                 </div>
@@ -21,4 +23,4 @@ const Lastpartofhomescreen = () => {
     )
 }
 
-export default Lastpartofhomescreen
+export default Lastpartofhomescreen;

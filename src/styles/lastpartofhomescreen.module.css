@@ -28,7 +28,8 @@
     display: flex;
     flex-direction: row;
     /* border: 2px solid white; */
-    padding-left: 480px;
+    /* padding-left: 480px; */
+    
 }
 .img{
     width: 30px;
