@@ -14,7 +14,7 @@ const Servicenext = () => {
                 <div className={style.box1}>
                     <div className={style.imgbox}>
                         <img src={success2} className={style.box1img} />
-                        <img src={servicenextplay} style={{width:"100px",height:"auto",position:"absolute",zIndex:"2", border:"2px solid green",left:"400px",marginTop:"150px"}}/>
+                        <img src={servicenextplay} style={{width:"100px",height:"auto",position:"absolute",zIndex:"2", left:"400px",marginTop:"150px"}}/>
                     </div>
 
                     <div className={style.contentbox}>
@@ -45,7 +45,7 @@ const Servicenext = () => {
 
                     <div className={style.imgbox}>
                         <img src={servicenext2} className={style.box1img} />
-                        <img src={servicenextplay} style={{width:"100px",height:"auto",position:"absolute",zIndex:"2", border:"2px solid green",right:"350px",marginTop:"250px"}}/>
+                        <img src={servicenextplay} style={{width:"100px",height:"auto",position:"absolute",zIndex:"2", right:"350px",marginTop:"250px"}}/>
                     </div>
                 </div>
             </div>
