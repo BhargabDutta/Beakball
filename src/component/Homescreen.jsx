@@ -21,7 +21,7 @@ const Homescreen = () => {
             <div style={{color:"white", fontSize:"30px",fontWeight:"bold"}}>Unlock New Dimensions</div>
             <div style={{color:"white", fontSize:"30px",fontWeight:"bold"}}>Where Your Brand’s Vision Meets Virtual Reality</div>
             <div style={{fontSize:"19px", marginTop:"20px"}}>Secure the competitive advantages for your business by walking ahead of your peers. Impart the capability of 3D modeling and virtual reality into your online presence.</div>
-            <div style={{backgroundColor:"blue",borderRadius:"20px",fontSize:"15px",color:"white",width:"fit-content",paddingLeft:"10px",paddingRight:"10px",paddingTop:"7px",paddingBottom:"7px", marginTop:"5px"}}>DEMO TOUR</div>
+            <div style={{backgroundColor:"blue",borderRadius:"20px",fontSize:"15px",color:"white",width:"fit-content",paddingLeft:"10px",paddingRight:"10px",paddingTop:"7px",paddingBottom:"7px", marginTop:"25px",fontWeight:"bold"}}>DEMO TOUR</div>
           </div>
         </div>
         <video autoPlay loop muted controls={false}>
