@@ -1,39 +1,50 @@
 import React from 'react'
 import portfoliohero from '../assets/portfoliohero.png';
 import porthero from '../assets/porthero.png';
-import pt1 from '../assets/pt1.png';
-import pt2 from '../assets/pt2.png';
+import card2 from "../assets/card2.png";
+import card3 from "../assets/card3.png";
+import servicenextplay from '../assets/servicenextplay.png';
 const Portfoliohero = () => {
   return (
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center",
-height:"100vh"}}>
-      <img src={porthero} style={{position:"absolute",zIndex:"-1",height:"120vh",width:"100%",objectFit:"cover"}}/>
+    <div style={{
+      display: "flex", alignItems: "center", justifyContent: "center",
+      height: "100vh"
+    }}>
+      <img src={porthero} style={{ position: "absolute", zIndex: "-1", height: "120vh", width: "100%", objectFit: "cover" }} />
 
-      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", border: "2px solid black", padding: "15px", width: "fit-content" ,borderRadius:"40px",backgroundColor:"white",marginTop:"80px"}}>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", padding: "10px", width: "fit-content", borderRadius: "40px", backgroundColor: "white", marginTop: "80px" }}>
 
-        <div style={{ width: "300px", padding: "10px" }}>
-          <div style={{ fontSize: "25px", color: "black"}}>EXPLORE THE WORLD FROM YOUR DIGITAL DEVICE</div>
+        <div style={{ width: "255px", padding: "10px" }}>
+          <div style={{ fontSize: "25px", color: "black" }}>EXPLORE THE WORLD FROM YOUR DIGITAL DEVICE</div>
+          
           <div style={{ fontSize: "16px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "200px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
           <div style={{ fontSize: "19px", width: "fit-content", padding: "10px", backgroundColor: "black", color: "white" }}>Lets Connect</div>
           <div>
-            <img></img>
-            <div style={{ fontSize: "19px", color: "black", marginTop: "100px" }}>VR Compatibility</div>
+            {/* <img></img> */}
+            <div style={{ fontSize: "19px", color: "black", marginTop: "50px",width:"fit-content" }}>VR Compatibility</div>
           </div>
         </div>
 
-        <img style={{ height: "450px", width: "420px", borderRadius: "40px"}} src={portfoliohero}  />
+        <img style={{ height: "450px", width: "410px", borderRadius: "40px" }} src={portfoliohero} />
 
-        <div style={{ paddingLeft: "60px" }}>
-          <div style={{ width: "300px", }}>
-            <img src={pt1} style={{ width: "250px", height: "130px"}} alt="" />
-            <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "10px" }}>Beakverse</div>
-            <div style={{ fontSize: "13px",width: "270px" }}>Experience your modern home where you will find your permanent with virtual reality.</div>
+        <div style={{ paddingLeft: "50px",marginRight:"10px" }}>
+          <div style={{ width: "300px", width: "250px" }}>
+            <div style={{ position: "relative" }}>
+              <img src={card3} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
+              <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} />
+            </div>
+
+            <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Beakverse</div>
+            <div style={{ fontSize: "13px", width: "250px" }}>Experience your modern home where you will find your permanent with virtual reality.</div>
           </div>
 
-          <div style={{ width: "300px", }}>
-            <img src={pt2} style={{ width: "250px", height: "130px",}} alt="" />
-            <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "10px" }}>University and College</div>
-            <div style={{ fontSize: "13px",width: "270px"}}>We created the virtual reality tour of this college while injecting each road, department, and building of the campus. Roam through the walkways and explore the college premises with a VR tour.
+          <div style={{ width: "250px", marginTop: "20px" }}>
+            <div style={{ position: "relative" }}>
+              <img src={card2} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
+              <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} />
+            </div>
+            <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px" }}>University and College</div>
+            <div style={{ fontSize: "13px", width: "250px" }}>We created the virtual reality tour of this college while injecting each road, department, and building of the campus. Roam through the walkways and explore the college premises with a VR tour.
             </div>
           </div>
         </div>
