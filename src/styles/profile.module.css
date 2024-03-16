@@ -24,22 +24,11 @@
 
 }
 .contactinfo_img1{
-    width:350px;
-    height: auto;
+    width:40px;
+    height: fit-content;
     padding-top: 5px;
 }
-.contactinfo_img2{
-    width:350px;
-    height: auto;
-    padding-top: 5px;
-    padding-left: 5px;
-}
-.contactinfo_img3{
-    width:350px;
-    height: auto;
-    padding-top: 5px;
-    padding-left: 5px;
-}
+
 
 .horizontal_line {
     width: 100%;

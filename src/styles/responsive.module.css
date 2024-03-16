@@ -59,7 +59,7 @@
 
 /* .................... */
 .portfoliocard:hover{
-    background:rgb(202, 202, 202);
+    box-shadow: 5px 10px 30px;
     transition: 0.2s ease-in-out;
     
     

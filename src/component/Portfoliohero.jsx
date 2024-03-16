@@ -4,6 +4,7 @@ import porthero from '../assets/porthero.png';
 import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
 import servicenextplay from '../assets/servicenextplay.png';
+import vrlogo from "../assets/3.png";
 const Portfoliohero = () => {
   return (
     <div style={{
@@ -14,21 +15,29 @@ const Portfoliohero = () => {
 
       <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", padding: "10px", width: "fit-content", borderRadius: "40px", backgroundColor: "white", marginTop: "80px" }}>
 
-        <div style={{ width: "255px", padding: "10px" }}>
+        <div style={{ width: "250px", padding: "5px" }}>
           <div style={{ fontSize: "25px", color: "black" }}>EXPLORE THE WORLD FROM YOUR DIGITAL DEVICE</div>
-          
-          <div style={{ fontSize: "16px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "200px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
-          <div style={{ fontSize: "19px", width: "fit-content", padding: "10px", backgroundColor: "black", color: "white" }}>Lets Connect</div>
+          <hr style={{width:"95%",border:"2px solid blue",margin:"0"}}/>
+
+          <div style={{ fontSize: "13px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "200px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
+          <div style={{ fontSize: "19px", width: "fit-content", padding: "5px",paddingLeft:"15px",paddingRight:"15px", backgroundColor: "black", color: "white", cursor: "pointer", marginBottom:"70px"}}>Lets Connect</div>
           <div>
             {/* <img></img> */}
-            <div style={{ fontSize: "19px", color: "black", marginTop: "50px",width:"fit-content" }}>VR Compatibility</div>
+            <div style={{ display: "flex", flexDirection: "row" , }}>
+              <div>
+                <img src={vrlogo} alt="" style={{ width: "70px", height: "fit-content" }} />
+              </div>
+              <div style={{ fontSize: "15px", color: "black", width: "fit-content",alignSelf:"center",paddingLeft:"10px"}}>
+                VR Compatibility
+              </div>
+            </div>
           </div>
         </div>
 
-        <img style={{ height: "450px", width: "410px", borderRadius: "40px" }} src={portfoliohero} />
+        <img style={{ height: "450px", width: "410px", borderRadius: "40px",objectFit:"cover" }} src={portfoliohero} />
 
-        <div style={{ paddingLeft: "50px",marginRight:"10px" }}>
-          <div style={{ width: "300px", width: "250px" }}>
+        <div style={{ paddingLeft: "50px", marginRight: "10px" }}>
+          <div style={{ width: "250px" }}>
             <div style={{ position: "relative" }}>
               <img src={card3} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
               <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} />

@@ -1,16 +1,16 @@
 import React from 'react'
 import styles from '../styles/profile.module.css';
-import profile from '../assets/profilepic.png';
+// import profile from '../assets/profilepic.png';
 import phone from '../assets/phone.png';
 import mail from '../assets/mail.png';
-import linkedin from '../assets/linkedin.png';
+import omkar from "../assets/omkar.png";
 const Profile = () => {
     return (
         <>
             <div style={{ width: "500px", padding: "20px" }}>
                 <div style={{ width: "fit-content", padding: "40px" }}>
                     <div className={styles.imagecntr}>
-                        <img className={styles.img} src={profile} />
+                        <img className={styles.img} src={omkar} />
                     </div>
                     <div className={styles.contentbox}>
                         <div className={styles.pt}>Any Question?</div>
@@ -20,9 +20,30 @@ const Profile = () => {
                         <div className={styles.heading_contactinfo}>Contact Information</div>
 
                         <div className={styles.infobox}>
-                            <img className={styles.contactinfo_img1} src={phone} />
-                            <img className={styles.contactinfo_img2} src={mail} />
-                            <img className={styles.contactinfo_img3} src={linkedin} />
+
+                            <div style={{display:"flex",flexDirection:"row"}}>
+                                <img src={phone} alt="" className={styles.contactinfo_img1}/>
+                                <div style={{paddingLeft:"15px"}}>
+                                    <div style={{fontSize:"20px",fontWeight:"600"}}>Phone</div>
+                                    <div style={{fontSize:"15px",fontWeight:"500"}}>+917002252195</div>
+                                </div>
+                            </div>
+                            
+                            <div style={{display:"flex",flexDirection:"row"}}>
+                                <img src={mail} alt="" className={styles.contactinfo_img1}/>
+                                <div style={{paddingLeft:"15px"}}>
+                                    <div style={{fontSize:"20px",fontWeight:"600"}}>Mail</div>
+                                    <div style={{fontSize:"15px",fontWeight:"500"}}>Ramamandsoibam@beakball.com</div>
+                                </div>
+                            </div>
+
+                            <div style={{display:"flex",flexDirection:"row"}}>
+                                <img src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="" className={styles.contactinfo_img1}/>
+                                <div style={{paddingLeft:"15px"}}>
+                                    <div style={{fontSize:"20px",fontWeight:"600"}}>Connect me</div>
+                                    <div style={{fontSize:"15px",fontWeight:"500"}}>Ramamandsoibam@LinkedIn.com</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

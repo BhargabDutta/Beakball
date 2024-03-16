@@ -30,7 +30,7 @@ const Nav = () => {
                   <NavLink className="nav-link" to="/portfolio" style={{ margin: "10px", color: "white" }}>PORTFOLIO</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact" style={{ borderRadius: "10px", backgroundColor: "blue", color: "white", width: "max-content", margin: "10px", color: "white" }}>CONTACT US</NavLink>
+                  <NavLink className="nav-link" to="/contact" style={{ borderRadius: "10px", backgroundColor: "blue", width: "max-content", margin: "10px", color: "white" }}>CONTACT US</NavLink>
                 </li>
               </ul>
             </div>
