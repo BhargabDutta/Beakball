@@ -35,14 +35,14 @@ export default function Servicepage_pt2() {
         </MDBCol>
         </div>
         <div>
-        <MDBCol size='md'  style={{width:"fit-content",padding:"40px",backgroundColor:"#202a4c"}}>
+        <MDBCol size='md'  style={{width:"fit-content",padding:"40px"}}>
         <Servicepage_pt2_cards
         img={car}
         width="480px" height="auto" padding="0px"
         title="AI Generated 3D World"
         content="Leverage the power of Artificial Intelligence to impart a virtual tour on your website. Bring astonishing landscapes and components to your page and boost the overall visitor experience. "
-        bgColor="#202a4c"
-        fontColor="white"/>
+        bgColor="white"
+        fontColor="black"/>
         </MDBCol>
         </div>
       </div>
