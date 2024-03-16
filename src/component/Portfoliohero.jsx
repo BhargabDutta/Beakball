@@ -1,16 +1,17 @@
 import React from 'react'
 import portfoliohero from '../assets/portfoliohero.png';
+import porthero from '../assets/porthero.png';
 import pt1 from '../assets/pt1.png';
 import pt2 from '../assets/pt2.png';
 const Portfoliohero = () => {
   return (
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundImage: "url(../src/assets/porthero.png)",
-    backgroundSize: "cover",
-    backgroundPosition: "center",height:"100vh"}}>
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center",
+height:"100vh"}}>
+      <img src={porthero} style={{position:"absolute",zIndex:"-1",height:"120vh",width:"100%",objectFit:"cover"}}/>
 
-      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", border: "2px solid black", padding: "15px", width: "fit-content" ,borderRadius:"40px",backgroundColor:"white"}}>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", border: "2px solid black", padding: "15px", width: "fit-content" ,borderRadius:"40px",backgroundColor:"white",marginTop:"80px"}}>
 
-        <div style={{ width: "300px", padding: "20px" }}>
+        <div style={{ width: "300px", padding: "10px" }}>
           <div style={{ fontSize: "25px", color: "black"}}>EXPLORE THE WORLD FROM YOUR DIGITAL DEVICE</div>
           <div style={{ fontSize: "16px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "200px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
           <div style={{ fontSize: "19px", width: "fit-content", padding: "10px", backgroundColor: "black", color: "white" }}>Lets Connect</div>
