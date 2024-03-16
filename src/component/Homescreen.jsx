@@ -11,9 +11,11 @@ import Lastpartofhomescreen from './Lastpartofhomescreen';
 import backgroundVideo from '../assets/test.mp4'; // Import your video file
 import Successpt2 from './Successpt2';
 import Successpt3 from './Successpt3';
+import responsive from "../styles/responsive.module.css";
 const Homescreen = () => {
   return (
     <div>
+      <div className={responsive.home_hero_desktop}>
       <div className={styles.section1}>
         <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
           <div style={{ width: "100%", height: "auto", padding: "80px", marginTop: "250px"}}>
@@ -28,6 +30,27 @@ const Homescreen = () => {
           <source src={backgroundVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
+      </div>
+      </div>
+
+      <div className={responsive.home_hero_mobile}>
+      <div className={styles.section1}>
+        <div style={{ position: "absolute", height: "auto", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
+          <div style={{ width: "100%", height: "auto", padding: "20px", marginTop: "0px"}}>
+            <div style={{ color: "white", fontSize: "15px", fontWeight: "bold" }}>Beakball: Interactive 3D Virtual Reality</div>
+            <div style={{ color: "white", fontSize: "15px", fontWeight: "bold" }}>Unlock New Dimensions</div>
+            <div style={{ color: "white", fontSize: "15px", fontWeight: "bold" }}>Where Your Brand’s Vision Meets Virtual Reality</div>
+            <div style={{ fontSize: "10px", marginTop: "20px" }}>Secure the competitive advantages for your business by walking ahead of your peers. Impart the capability of 3D modeling and virtual reality into your online presence.</div>
+            <div style={{ backgroundColor: "blue", borderRadius: "5px", fontSize: "10px", color: "white", width: "fit-content", paddingLeft: "8px", paddingRight: "8px", paddingTop: "2px", paddingBottom: "2px", marginTop: "10px", fontWeight: "bold" }}>DEMO TOUR</div>
+          </div>
+        </div>
+        <video autoPlay loop muted controls={false}>
+          <source src={backgroundVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+      </div>
       </div>
 
       <div className={styles.section2}>

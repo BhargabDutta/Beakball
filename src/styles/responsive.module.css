@@ -1,0 +1,60 @@
+.nav_desktop{
+    display: block;
+}
+.nav_mobile{
+    display: none;
+}
+/*..............................................................*/
+.home_hero_desktop{
+    display: block;
+}
+.home_hero_mobile{
+    display:none;
+}
+/*..............................................................*/
+.why_desktop{
+    display: block;
+}
+.why_mobile{
+    display:none;
+}
+/*.............................................................*/
+.hero_service_desktop{
+    display:block;
+}
+.hero_service_mobile{
+    display:none;
+}
+
+@media only screen and (max-width:600px)
+{
+    .nav_desktop{
+        display: none;
+    }
+    .nav_mobile{
+        display: block;
+    }
+
+
+    .home_hero_desktop{
+        display: none;
+    }
+    .home_hero_mobile{
+        display:block;
+    }
+
+
+    .why_desktop{
+        display: none;
+    }
+    .why_mobile{
+        display:block;
+    }
+
+    .hero_service_desktop{
+        display:none;
+    }
+    .hero_service_mobile{
+        display:block;
+    }
+}
