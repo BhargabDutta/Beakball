@@ -144,30 +144,54 @@ import fifth from '../assets/fifth.png';
 import sixth from '../assets/sixth.png';
 import SwiperCore from 'swiper';
 import 'swiper/swiper-bundle.css';
-
+import responsive from "../styles/responsive.module.css";
 SwiperCore.use([]);
 
 const Cardslider = () => {
-    const [swiper, setSwiper] = useState(null);
-    const sliderRef = useRef(null);
+    // const [swiper, setSwiper] = useState(null);
+    // const sliderRef = useRef(null);
+
+    // useEffect(() => {
+    //     const slider = sliderRef.current.swiper;
+    //     setSwiper(slider);
+
+    //     const interval = setInterval(() => {
+    //         slider.slideNext();
+    //     }, 2000); // Adjust delay as needed, it's in milliseconds (5000ms = 5 seconds)
+
+    //     return () => clearInterval(interval);
+    // }, []);
+    const sliderMobileRef = useRef(null);
+    const sliderDesktopRef = useRef(null);
 
     useEffect(() => {
-        const slider = sliderRef.current.swiper;
-        setSwiper(slider);
+        const sliderMobile = sliderMobileRef.current.swiper;
+        const sliderDesktop = sliderDesktopRef.current.swiper;
 
-        const interval = setInterval(() => {
-            slider.slideNext();
-        }, 2000); // Adjust delay as needed, it's in milliseconds (5000ms = 5 seconds)
+        const intervalMobile = setInterval(() => {
+            sliderMobile.slideNext();
+        }, 2000); // Adjust delay as needed, it's in milliseconds (2000ms = 2 seconds)
 
-        return () => clearInterval(interval);
+        const intervalDesktop = setInterval(() => {
+            sliderDesktop.slideNext();
+        }, 2000); // Adjust delay as needed, it's in milliseconds (2000ms = 2 seconds)
+
+        return () => {
+            clearInterval(intervalMobile);
+            clearInterval(intervalDesktop);
+        };
     }, []);
 
     return (
+        <>
+        <div className={responsive.cards_desktop}>
         <Swiper
-            ref={sliderRef}
+            // ref={sliderRef}
+            ref={sliderDesktopRef}
             spaceBetween={-60}
             slidesPerView={4}
-            loop={true} // Enable loop
+            loop={true}// Enable loop
+            autoplay={{ delay: 2000 }} 
         >
             <SwiperSlide>
                 <Swipecards imgsrc={first} heading="Universities and Colleges" content="Unveil the campus of a college or university with a virtual tour. Invite the students to explore the place from their home’s comfort. "
@@ -201,6 +225,53 @@ const Cardslider = () => {
             </SwiperSlide>
             {/* Add more SwiperSlides if needed */}
         </Swiper>
+        </div>
+
+        <div>
+        <div className={responsive.cards_mobile}>
+        <Swiper
+            // ref={sliderRef}
+            ref={sliderMobileRef}
+            spaceBetween={90}
+            slidesPerView={1.5}
+            loop={true} // Enable loop
+            autoplay={{ delay: 2000 }} 
+        >
+            <SwiperSlide>
+                <Swipecards imgsrc={first} heading="Universities and Colleges" content="Unveil the campus of a college or university with a virtual tour. Invite the students to explore the place from their home’s comfort. "
+                backgroundColor="#34231a"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Swipecards 
+                imgsrc={second} heading="Real Estate" content="Redefine the way of property showcasing with an interactive virtual staging. Cover more tours to varieties at different locations."
+                backgroundColor="#4e4749"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Swipecards 
+                imgsrc={third} heading="Hotel, Tourism & Hospitality" content="Foster a digital tour of your deluxe room, dine-in area, and facilities along with interactive maps and destination, all in one place.
+                "
+                backgroundColor="#24313a"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Swipecards 
+                imgsrc={fourth} heading="Marketing and Promotion:" content="Achieve a competitive edge in your market campaign by offering 3D modeling practices to enhance engagement for your clients"
+                backgroundColor="#363333"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Swipecards 
+                imgsrc={fifth} heading="Educational Course Content" content="Encourage immersive learning experiences and increase student retention via periodically updated classroom tours"
+                backgroundColor="#3f4951"/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Swipecards 
+                imgsrc={sixth} heading="Infrastructure Projects" content="Enhance public engagement with private and government projects through 360-degree interaction technology."
+                backgroundColor="#807b7e"/>
+            </SwiperSlide>
+            {/* Add more SwiperSlides if needed */}
+        </Swiper>
+        </div>
+        </div>
+        </>
     );
 }
 

@@ -37,5 +37,34 @@
     font-family: sans-serif;
     color: white;
     padding: 5px;
-    /* border: 2px solid blue; */
+}
+.bottomcntr{
+    display: flex;
+    width: 41%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: right;
+    justify-content: right;
+    /* border: 2px solid green; */
+
+}
+@media only screen and (max-width:600px){
+    .text{
+        color: white;
+        font-family: sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .bottomcntr{
+        display: flex;
+        width: 80%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        align-items: right;
+        justify-content: right;
+        /* border: 2px solid green; */
+    }
 }

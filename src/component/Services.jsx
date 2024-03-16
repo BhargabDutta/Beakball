@@ -104,10 +104,10 @@ const Services = () => {
                 </div>
 
                 <div style={{ display: "flex", fontSize: "15px", alignItems: "center", justifyContent: "center", backgroundColor:"grey",borderRadius:"10px",width:"100%",height:"auto",marginTop:"20px",marginBottom:"10px"}}>
-                    <div style={{ borderRadius:"10px",padding: "3px",fontSize:"16px" ,cursor: "pointer", backgroundColor: activeSection === 'one' ? 'black' : 'grey',color:"white"}} onClick={() => toggleSection('one')}>
+                    <div style={{ borderRadius:"10px",padding: "3px",fontSize:"16px" ,cursor: "pointer", backgroundColor: activeSection === 'one' ? 'black' : 'grey',color:"white",width:"100%",paddingLeft:"10px"}} onClick={() => toggleSection('one')}>
                         Virtual Reality Website
                     </div>
-                    <div style={{ borderRadius:"10px",padding: "5px",fontSize:"15px" ,cursor: "pointer", backgroundColor: activeSection === 'two' ? 'black' : 'grey',color:"white" }} onClick={() => toggleSection('two')}>
+                    <div style={{ borderRadius:"10px",padding: "5px",fontSize:"15px" ,cursor: "pointer", backgroundColor: activeSection === 'two' ? 'black' : 'grey',color:"white",width:"100%" }} onClick={() => toggleSection('two')}>
                         3D Modeling Website
                     </div>
                 </div>

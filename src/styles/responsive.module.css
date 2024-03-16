@@ -26,6 +26,37 @@
     display:none;
 }
 
+/* ........................................................... */
+.servicenext_desktop{
+    display:block;
+}
+.servicenext_mobile{
+    display:none;
+}
+/* ........................................................... */
+.cards_desktop{
+    display:block;
+}
+.cards_mobile{
+    display:none;
+}
+
+/* ........................................................... */
+.testicard_mobile{
+    display:none;
+}
+.testicard_desktop{
+    display: block;
+}
+
+/* ........................................................... */
+.contactus_mobile{
+    display:none;
+}
+.contactus_desktop{
+    display: block;
+}
+
 @media only screen and (max-width:600px)
 {
     .nav_desktop{
@@ -56,5 +87,33 @@
     }
     .hero_service_mobile{
         display:block;
+    }
+
+    .servicenext_desktop{
+        display:none;
+    }
+    .servicenext_mobile{
+        display:block;
+    }
+
+    .cards_desktop{
+        display:none;
+    }
+    .cards_mobile{
+        display:block;
+    }
+
+    .testicard_mobile{
+        display:block;
+    }
+    .testicard_desktop{
+        display: none;
+    }
+
+    .contactus_mobile{
+        display:block;
+    }
+    .contactus_desktop{
+        display: none;
     }
 }

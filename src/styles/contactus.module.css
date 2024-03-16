@@ -112,3 +112,18 @@
 .formgroup textarea{
     margin: 5px;
 }
+@media only screen and (max-width:600px){
+
+    .formgroup input[type="submit"] {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 5px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: right;
+        /* width: 100%; */
+        margin-left: 70%;
+        /* margin-bottom: 0px; */
+    }
+}
