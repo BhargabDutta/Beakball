@@ -10,8 +10,8 @@ import {
 
 export default function Portfoliogrid_card(props) {
   return (
-    <MDBCard>
-      <MDBCardImage src={props.img} position='top' alt='...' />
+    <MDBCard style={{backgroundColor:"transparent"}}>
+      <MDBCardImage src={props.img} position='top' alt='...' style={{width:"100%",borderRadius:"10px",marginTop:"10px"}} />
       <MDBCardBody>
         <MDBCardTitle style={{fontWeight:"bold"}}>{props.title}</MDBCardTitle>
         <MDBCardText>

@@ -57,6 +57,15 @@
     display: block;
 }
 
+/* .................... */
+.portfoliocard:hover{
+    background:rgb(202, 202, 202);
+    transition: 0.2s ease-in-out;
+    
+    
+}
+
+
 @media only screen and (max-width:600px)
 {
     .nav_desktop{
