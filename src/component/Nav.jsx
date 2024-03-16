@@ -37,7 +37,7 @@ const Nav = () => {
           </div>
         </nav>
       </div>
-      {/* <div className={responsive.nav_mobile}>
+      <div className={responsive.nav_mobile}>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">Beakball</a>
@@ -55,7 +55,7 @@ const Nav = () => {
             </div>
           </div>
         </nav>
-      </div> */}
+      </div>
     </>
   )
 }
