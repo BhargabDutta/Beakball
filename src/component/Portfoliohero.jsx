@@ -4,7 +4,7 @@ import pt1 from '../assets/pt1.png';
 import pt2 from '../assets/pt2.png';
 const Portfoliohero = () => {
   return (
-    <div style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundImage: "url(./src/assets/porthero.png)",
+    <div style={{ display: "flex", alignItems: "center", justifyContent: "center",backgroundImage: "url(../src/assets/porthero.png)",
     backgroundSize: "cover",
     backgroundPosition: "center",height:"100vh"}}>
 
