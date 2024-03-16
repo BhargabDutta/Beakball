@@ -10,7 +10,7 @@ const Portfoliohero = () => {
       display: "flex", alignItems: "center", justifyContent: "center",
       height: "100vh"
     }}>
-      <img src={porthero} style={{ position: "absolute", zIndex: "-1", height: "120vh", width: "100%", objectFit: "cover" }} />
+      <img src={porthero} style={{ position: "absolute", zIndex: "-1", height: "100vh", width: "100%", objectFit: "cover" }} />
 
       <div style={{ display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", padding: "10px", width: "fit-content", borderRadius: "40px", backgroundColor: "white", marginTop: "80px" }}>
 
