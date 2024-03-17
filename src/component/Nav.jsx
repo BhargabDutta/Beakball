@@ -21,16 +21,16 @@ const Nav = () => {
                   <NavLink className="nav-link active" aria-current="page" exact to="/" style={{ margin: "10px", color: "white" }}>HOME</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" exact to="/about" style={{ margin: "10px", color: "white" }}>ABOUT</NavLink>
+                  <NavLink className="nav-link" to="about" style={{ margin: "10px", color: "white" }}>ABOUT</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" exact to="/service" style={{ margin: "10px", color: "white" }}>SERVICE</NavLink>
+                  <NavLink className="nav-link" to="service" style={{ margin: "10px", color: "white" }}>SERVICE</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" exact to="/portfolio" style={{ margin: "10px", color: "white" }}>PORTFOLIO</NavLink>
+                  <NavLink className="nav-link" to="portfolio" style={{ margin: "10px", color: "white" }}>PORTFOLIO</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" exact to="/contact" style={{ borderRadius: "10px", backgroundColor: "blue", width: "max-content", margin: "10px", color: "white" }}>CONTACT US</NavLink>
+                  <NavLink className="nav-link" to="contact" style={{ borderRadius: "10px", backgroundColor: "blue", width: "max-content", margin: "10px", color: "white" }}>CONTACT US</NavLink>
                 </li>
               </ul>
             </div>
