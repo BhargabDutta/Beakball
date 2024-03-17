@@ -37,8 +37,8 @@ const Whyneed = () => {
               }}
               className='togglebuttons'
               onClick={() => handleToggle(0)}
-              onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
-              onMouseOut={(e) => e.target.style.boxShadow = "none"}
+              onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
+              onMouseOut={(e) => e.currentTarget.style.boxShadow = "none"}
             >
               <img src={image0} alt="" style={{width:"50px",height:"auto"}}/>
               Bespoke Branding
@@ -61,8 +61,8 @@ const Whyneed = () => {
               }}
               className='togglebuttons'
               onClick={() => handleToggle(1)}
-              onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
-              onMouseOut={(e) => e.target.style.boxShadow = "none"}
+              onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
+              onMouseOut={(e) => e.currentTarget.style.boxShadow = "none"}
             >
               <img src={image1} alt="" style={{width:"50px",height:"auto"}}/>
               Dynamic floor layout Viewer
@@ -88,8 +88,8 @@ const Whyneed = () => {
               }}
               className='togglebuttons'
               onClick={() => handleToggle(2)}
-              onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
-              onMouseOut={(e) => e.target.style.boxShadow = "none"}
+              onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
+              onMouseOut={(e) => e.currentTarget.style.boxShadow = "none"}
             >
               <img src={image2} alt="" style={{width:"50px",height:"auto"}}/>
               Interactive Marketing
@@ -114,8 +114,8 @@ const Whyneed = () => {
               }}
               className='togglebuttons'
               onClick={() => handleToggle(3)}
-              onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
-              onMouseOut={(e) => e.target.style.boxShadow = "none"}
+              onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
+              onMouseOut={(e) => e.currentTarget.style.boxShadow = "none"}
             >
               <img src={image3} alt="" style={{width:"50px",height:"auto"}}/>
               Continuous Scene Flow
@@ -141,8 +141,8 @@ const Whyneed = () => {
               }}
               className='togglebuttons'
               onClick={() => handleToggle(4)}
-              onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
-              onMouseOut={(e) => e.target.style.boxShadow = "none"}
+              onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
+              onMouseOut={(e) => e.currentTarget.style.boxShadow = "none"}
             >
               <img src={image4} alt="" style={{width:"50px",height:"auto"}}/>
               Simplified Navigation Options
