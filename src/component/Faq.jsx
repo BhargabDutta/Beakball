@@ -1,12 +1,13 @@
 import React from 'react'
 import "../styles/faq.css";
+import responsive from "../styles/responsive.module.css";
 const Faq = () => {
   return (
     <div style={{backgroundColor:"black"}}>
-      <div style={{width:"100%",fontSize:"50px",color:"white",textAlign:"center",padding:"40px",fontWeight:"bold"}}>
+      <div className="faqhead">
         Frequently Asked Questions
       </div>
-      <section style={{height:"800px"}}>
+      <section className='section'>
     <div className="container">
       <div className="accordion">
         <div className="accordion-item" id="question1">
