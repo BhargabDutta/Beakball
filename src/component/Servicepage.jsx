@@ -9,6 +9,7 @@ import Success from './Success';
 import Successpt2 from './Successpt2';
 import backgroundVideo from '../assets/servicevideo.mp4';
 import Faq from './Faq';
+// import Whyneed from './Whyneed';
 // import New from "./New";
 const Servicepage = () => {
   return (
@@ -34,10 +35,12 @@ const Servicepage = () => {
 
 
       <Servicepage_pt2 />
+      
       {/* <Test /> */}
       {/* <New /> */}
       {/* <Whyneed /> */}
       <Getstarted />
+      <Whyneed/>
       <Successpt2 />
       <Faq/>
     </div>
