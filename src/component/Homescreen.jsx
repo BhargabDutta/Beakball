@@ -36,7 +36,7 @@ const Homescreen = () => {
 
       <div className={responsive.home_hero_mobile}>
       <div className={styles.section1}>
-        <div style={{ position: "absolute", height: "auto", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
+        <div style={{ position: "absolute", height: "350px", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
           <div style={{ width: "100%", height: "auto", padding: "20px", marginTop: "0px"}}>
             <div style={{ color: "white", fontSize: "15px", fontWeight: "bold" }}>Beakball: Interactive 3D Virtual Reality</div>
             <div style={{ color: "white", fontSize: "15px", fontWeight: "bold" }}>Unlock New Dimensions</div>
@@ -45,7 +45,7 @@ const Homescreen = () => {
             <div style={{ backgroundColor: "blue", borderRadius: "5px", fontSize: "10px", color: "white", width: "fit-content", paddingLeft: "8px", paddingRight: "8px", paddingTop: "2px", paddingBottom: "2px", marginTop: "10px", fontWeight: "bold" }}>DEMO TOUR</div>
           </div>
         </div>
-        <video autoPlay loop muted controls={false}>
+        <video autoPlay loop muted controls={false} style={{ height: '300px', width: '100%', objectFit: 'cover' }}>
           <source src={backgroundVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

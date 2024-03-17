@@ -6,14 +6,16 @@ import {
   MDBCheckbox,
   MDBBtn
 } from 'mdb-react-ui-kit';
-
+import responsive from "../styles/responsive.module.css";
 export default function Form() {
 
   
   return (
-    <div style={{padding:"40px", width:"500px",}}>
-      <div style={{fontSize:"35px", fontWeight:"bold",color:"black", textAlign:"center",marginTop:"30px",marginBottom:"30px"}}>Reach Us</div>
+    <div className={responsive.formhead} style={{padding:"40px", width:"500px",}}>
+      <div style={{fontSize:"35px", fontWeight:"bold",color:"black", textAlign:"center",marginBottom:"30px"}}>Reach Us</div>
+      <div className={responsive.formbox}>
     <form >
+      
       <MDBRow className='mb-4'>
         <MDBCol>
           <MDBInput id='form6Example1' label='First name' />
@@ -34,7 +36,7 @@ export default function Form() {
       </MDBBtn>
       </div>
     </form>
-
+</div>
     </div>
   );
 }

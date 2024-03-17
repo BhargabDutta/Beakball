@@ -1,0 +1,10 @@
+.navbar-nav .nav-link.active {
+    /* color: white !important; */
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px;
+  }
+
+  .navbar-toggler-icon .custom-toggler {
+    color: white !important;
+  }
+  

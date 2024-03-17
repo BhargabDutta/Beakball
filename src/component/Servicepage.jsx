@@ -39,16 +39,16 @@ const Servicepage = () => {
         <div className={responsive.servicehero_mobile}>
         <div className={styles.hero}>
 
-          <div style={{ position: "absolute", height: "fit-content", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
+          <div style={{ position: "absolute", height: "fit-content", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center",height:"300px"}}>
             <div style={{ width: "100%", height: "100%", padding: "10px", paddingTop: "35px",backgroundColor:"#00000057"}}>
-              <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", width: "400px" }}>Virtual Reality Website  </div>
+              <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", width: "400px",marginTop:"50px" }}>Virtual Reality Website  </div>
               <div>
                 <div style={{ fontSize: "19px", marginTop: "20px" }}>Create your interactive Virtual reality tour with Beakball</div>
                 <div style={{ backgroundColor: "blue", borderRadius: "10px", fontSize: "12px", color: "white", width: "fit-content", paddingLeft: "10px", paddingRight: "10px", paddingTop: "3px", paddingBottom: "3px", marginTop: "10px", fontWeight: "bold" }}>Experience a tour</div>
               </div>
             </div>
           </div>
-          <video autoPlay loop muted controls={false}>
+          <video autoPlay loop muted controls={false} style={{ height: '300px', width: '100%', objectFit: 'cover' }}>
             <source src={backgroundVideo} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

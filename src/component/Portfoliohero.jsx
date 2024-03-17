@@ -65,13 +65,13 @@ const Portfoliohero = () => {
       </div>
 
       <div className={responsive.portfoliohero_mobile}>
-        <div style={{display:"flex",flexDirection:"row",width: "100%",alignItems:"center",justifyContent:"center"}}>
+        <div style={{display:"flex",flexDirection:"row",width: "100%",alignItems:"center",justifyContent:"center",paddingLeft:"30px",paddingRight:"30px"}}>
           <div style={{width:"170px"}}>
             <div style={{ width: "150px", padding: "5px",paddingTop:"20px" }}>
               <div style={{ fontSize: "10px", color: "black", }}>EXPLORE THE WORLD FROM YOUR DIGITAL DEVICE</div>
               <hr style={{ width: "95%", border: "2px solid blue", margin: "0" }} />
 
-              <div style={{ fontSize: "9px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "170px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
+              <div style={{ fontSize: "9px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "140px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
               <div style={{ fontSize: "9px", width: "fit-content", padding: "5px", paddingLeft: "15px", paddingRight: "15px", backgroundColor: "black", color: "white", cursor: "pointer", marginBottom: "50px" }}>Lets Connect</div>
               <div style={{width:"120px"}}>
                 {/* <img></img> */}
