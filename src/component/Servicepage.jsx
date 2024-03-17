@@ -4,11 +4,13 @@ import hero2 from '../assets/hero2.png';
 import Servicepage_pt2 from "../component/Servicepage_pt2";
 import Test from './Test';
 import Whyneed from './Whyneed';
+import Whyneed_mobile from "../component/Whyneed_mobile";
 import Getstarted from './Getstarted';
 import Success from './Success';
 import Successpt2 from './Successpt2';
 import backgroundVideo from '../assets/servicevideo.mp4';
 import Faq from './Faq';
+import responsive from "../styles/responsive.module.css";
 // import Whyneed from './Whyneed';
 // import New from "./New";
 const Servicepage = () => {
@@ -40,7 +42,8 @@ const Servicepage = () => {
       {/* <New /> */}
       {/* <Whyneed /> */}
       <Getstarted />
-      <Whyneed/>
+      <Whyneed style={responsive.whyneed_desktop}/>
+      <Whyneed_mobile/>
       <Successpt2 />
       <Faq/>
     </div>

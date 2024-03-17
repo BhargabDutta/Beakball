@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
-
+import image0 from '../assets/image0.png';
+import image1 from '../assets/image1.png';
+import image2 from '../assets/image2.png';
+import image3 from '../assets/image3.png';
+import image4 from '../assets/image4.png';
+import "../styles/whyneed.css";
 const Whyneed = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -8,7 +13,7 @@ const Whyneed = () => {
   };
 
   return (
-    <div style={{height:"100vh",width:"100%",padding:"20px"}}>
+    <div style={{height:"100vh",width:"100%",padding:"20px"}} className='desktop_only'>
 
       <div style={{fontSize:"30px",fontWeight:"bold", padding:"30px"}}>Why we need Virtual Reality?</div>
       <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
@@ -17,39 +22,49 @@ const Whyneed = () => {
             <div
               style={{
                 fontWeight: "bold",
-                padding: "40px",
+                padding: "20px",
                 width: "50%",
                 textAlign: "center",
                 borderRadius: "30px",
                 backgroundColor: activeIndex === 0 ? "yellow" : "lightgrey",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                boxShadow: "none"
+                boxShadow: "none",
+                display:"flex",
+                flexDirection:"column",
+                alignItems:"center",
+                justifyContent:"center"
               }}
               className='togglebuttons'
               onClick={() => handleToggle(0)}
               onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
               onMouseOut={(e) => e.target.style.boxShadow = "none"}
             >
+              <img src={image0} alt="" style={{width:"50px",height:"auto"}}/>
               Bespoke Branding
             </div>
             <div
               style={{
                 fontWeight: "bold",
-                padding: "40px",
+                padding: "20px",
                 width: "50%",
                 textAlign: "center",
                 borderRadius: "30px",
                 backgroundColor: activeIndex === 1 ? "yellow" : "lightgrey",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                boxShadow: "none"
+                boxShadow: "none",
+                display:"flex",
+                flexDirection:"column",
+                alignItems:"center",
+                justifyContent:"center"
               }}
               className='togglebuttons'
               onClick={() => handleToggle(1)}
               onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
               onMouseOut={(e) => e.target.style.boxShadow = "none"}
             >
+              <img src={image1} alt="" style={{width:"50px",height:"auto"}}/>
               Dynamic floor layout Viewer
             </div>
           </div>
@@ -58,20 +73,25 @@ const Whyneed = () => {
             <div
               style={{
                 fontWeight: "bold",
-                padding: "40px",
+                padding: "20px",
                 width: "50%",
                 textAlign: "center",
                 borderRadius: "30px",
                 backgroundColor: activeIndex === 2 ? "yellow" : "lightgrey",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                boxShadow: "none"
+                boxShadow: "none",
+                display:"flex",
+                flexDirection:"column",
+                alignItems:"center",
+                justifyContent:"center"
               }}
               className='togglebuttons'
               onClick={() => handleToggle(2)}
               onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
               onMouseOut={(e) => e.target.style.boxShadow = "none"}
             >
+              <img src={image2} alt="" style={{width:"50px",height:"auto"}}/>
               Interactive Marketing
 
               Hotspots
@@ -79,20 +99,25 @@ const Whyneed = () => {
             <div
               style={{
                 fontWeight: "bold",
-                padding: "40px",
+                padding: "20px",
                 width: "50%",
                 textAlign: "center",
                 borderRadius: "30px",
                 backgroundColor: activeIndex === 3 ? "yellow" : "lightgrey",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                boxShadow: "none"
+                boxShadow: "none",
+                display:"flex",
+                flexDirection:"column",
+                alignItems:"center",
+                justifyContent:"center"
               }}
               className='togglebuttons'
               onClick={() => handleToggle(3)}
               onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
               onMouseOut={(e) => e.target.style.boxShadow = "none"}
             >
+              <img src={image3} alt="" style={{width:"50px",height:"auto"}}/>
               Continuous Scene Flow
             </div>
           </div>
@@ -101,20 +126,25 @@ const Whyneed = () => {
             <div
               style={{
                 fontWeight: "bold",
-                padding: "40px",
+                padding: "20px",
                 width: "50%",
                 textAlign: "center",
                 borderRadius: "30px",
                 backgroundColor: activeIndex === 4 ? "yellow" : "lightgrey",
                 cursor: "pointer",
                 transition: "background-color 0.3s",
-                boxShadow: "none"
+                boxShadow: "none",
+                display:"flex",
+                flexDirection:"column",
+                alignItems:"center",
+                justifyContent:"center"
               }}
               className='togglebuttons'
               onClick={() => handleToggle(4)}
               onMouseOver={(e) => e.target.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}
               onMouseOut={(e) => e.target.style.boxShadow = "none"}
             >
+              <img src={image4} alt="" style={{width:"50px",height:"auto"}}/>
               Simplified Navigation Options
             </div>
           </div>
@@ -152,3 +182,9 @@ const Whyneed = () => {
 };
 
 export default Whyneed;
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    .mobile-only {
+      display: block !important;
+    }
+    .desktop_only{
+        display: none;
+    }
+  }
