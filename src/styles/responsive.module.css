@@ -72,7 +72,20 @@
     display:none;
 }
 /* .............................. */
-
+.servicehero_mobile{
+    display: none;
+}
+.servicehero_desktop{
+    display: block;
+    background: #00000057;
+}
+/* ................................ */
+.service_card_desktop{
+    display: block;
+}
+.service_card_mobile{
+    display:none;
+}
 
 @media only screen and (max-width:600px)
 {
@@ -132,5 +145,19 @@
     }
     .contactus_desktop{
         display: none;
+    }
+
+    .servicehero_mobile{
+        display: block;
+    }
+    .servicehero_desktop{
+        display: none;
+    }
+
+    .service_card_desktop{
+        display: none;
+    }
+    .service_card_mobile{
+        display:block;
     }
 }
