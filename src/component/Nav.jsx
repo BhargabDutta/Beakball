@@ -49,8 +49,8 @@ const Nav = () => {
         {/* <div style={{height:"60px",width:"100%"}}></div> */}
         <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)" }}>
           <div className="container-fluid">
-            <img src={Logo} style={{ width: "35px", height: "auto", marginLeft: "0px" }} />
-            {/* <NavLink className="navbar-brand" exact to="/" activeClassName="active-link" style={{fontWeight:"bold",border:"2px solid red"}}>Beakball</NavLink> */}
+            
+            <NavLink className="navbar-brand" exact to="/" ><img src={Logo} style={{ width: "35px", height: "auto", marginLeft: "0px" }} /></NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <svg
                 fill="#ffffff"
@@ -66,7 +66,7 @@ const Nav = () => {
               </svg>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav" style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px", marginTop: "10px", marginBottom: "15px",height:"50px" }}>
+              <div className="navbar-nav" style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px", marginTop: "10px", marginBottom: "15px",height:"50px"}}>
                 <NavLink className="nav-link" to="/about" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>About</NavLink>
                 <NavLink className="nav-link" to="/service" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Service</NavLink>
                 <NavLink className="nav-link" to="/portfolio" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Portfolio</NavLink>
