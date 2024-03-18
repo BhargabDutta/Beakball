@@ -1,7 +1,7 @@
 .navbar-nav .nav-link.active {
     /* color: white !important; */
     font-weight: bold;
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 2px 3px 2px 1px rgb(119, 111, 111);
   }
 
   .navbar-toggler-icon .custom-toggler {

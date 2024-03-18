@@ -39,7 +39,7 @@ const Servicepage = () => {
         <div className={responsive.servicehero_mobile}>
         <div className={styles.hero}>
 
-          <div style={{ position: "absolute", height: "fit-content", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center",height:"300px"}}>
+          <div style={{ position: "absolute", height: "fit-content", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center"}}>
             <div style={{ width: "100%", height: "100%", padding: "10px", paddingTop: "35px",backgroundColor:"#00000057"}}>
               <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", width: "400px",marginTop:"50px" }}>Virtual Reality Website  </div>
               <div>

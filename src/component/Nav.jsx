@@ -29,9 +29,6 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarNav" style={{ display: "flex", justifyContent: "right" }}>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" exact to="/" style={{ margin: "10px", color: "white" }}>HOME</Link>
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link" to="/about" style={{ margin: "10px", color: "white" }}>ABOUT</Link>
                 </li>
                 <li className="nav-item">
@@ -69,11 +66,10 @@ const Nav = () => {
               </svg>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav" style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px",marginTop:"15px",marginBottom:"10px" }}>
-                <NavLink className="nav-link" exact to="/" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto" ,color:"white"}}>Home</NavLink>
-                <NavLink className="nav-link" to="/about" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto" ,color:"white"}}>About</NavLink>
-                <NavLink className="nav-link" to="/service" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto" ,color:"white"}}>Service</NavLink>
-                <NavLink className="nav-link" to="/portfolio" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto" ,color:"white"}}>Portfolio</NavLink>
+              <div className="navbar-nav" style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px", marginTop: "10px", marginBottom: "15px",height:"50px" }}>
+                <NavLink className="nav-link" to="/about" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>About</NavLink>
+                <NavLink className="nav-link" to="/service" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Service</NavLink>
+                <NavLink className="nav-link" to="/portfolio" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Portfolio</NavLink>
                 <NavLink className="nav-link" to="/contact" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", backgroundColor: "blue", color: "white" }}>Contact Us</NavLink>
               </div>
             </div>
