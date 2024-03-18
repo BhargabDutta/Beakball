@@ -3,15 +3,15 @@ import styles from '../styles/profile.module.css';
 // import profile from '../assets/profilepic.png';
 import phone from '../assets/phone.png';
 import mail from '../assets/mail.png';
-import omkar from "../assets/omkar.png";
+import ramanand from "../assets/ramanand.png";
 import responsive from "../styles/responsive.module.css";
 const Profile = () => {
     return (
         <>
-            <div style={{ width: "500px", padding: "10px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center" }}>
+            <div style={{ width: "500px", padding: "10px",display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
                 <div style={{ width: "fit-content"}}>
                     <div className={styles.imagecntr}>
-                        <img className={styles.img} src={omkar} />
+                        <img className={styles.img} src={ramanand} />
                     </div>
                     <div className={styles.contentbox}>
                         <div className={styles.pt}>Any Question?</div>
