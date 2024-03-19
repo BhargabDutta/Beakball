@@ -9,7 +9,7 @@ const Why = () => {
     <div className={responsive.why_desktop}>
       <div className={style.why}>
 
-        <div style={{ width: "100%", height: "670px", overflow: "hidden" }}>
+        <div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
           <div className={style.contentpart}>
             <div className={styles.flexbox}>
               <div className={styles.part1} style={{ fontSize: "35px", padding: "5px", width: "630px" }}>Pioneering Transformative Technologies to Explore New Dimensions of Endless Opportunities </div>
