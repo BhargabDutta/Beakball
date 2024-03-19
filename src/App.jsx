@@ -6,7 +6,7 @@ import "./App.css";
 import Homescreen from './component/Homescreen';
 import Contactpage from '../src/component/Contactpage';
 import Portfoliopage from './component/Portfoliopage';
-// import Footer from './component/Footer';
+import Footer from './component/Footer';
 // import NavBar from './component/Navfolder/NavBar';
 import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
@@ -50,7 +50,7 @@ function App() {
     {/* <Portfoliopage/> */}
     {/* <Contactpage/> */} 
     
-    {/* <Footer/> */}
+    <Footer/>
     </>
   )
 }
