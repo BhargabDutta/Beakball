@@ -21,7 +21,7 @@ const Servicepage = () => {
         <div className={styles.hero}>
 
           <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <div style={{ width: "100%", height: "auto", padding: "80px", marginTop: "250px" }}>
+            <div style={{ width: "100%", height: "auto", padding: "80px", marginTop: "150px" }}>
               <div style={{ color: "white", fontSize: "60px", fontWeight: "bold", width: "400px" }}>Virtual Reality Website  </div>
               <div>
                 <div style={{ fontSize: "19px", marginTop: "20px" }}>Create your interactive Virtual reality tour with Beakball</div>
