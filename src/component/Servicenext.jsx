@@ -25,9 +25,9 @@ const Servicenext = () => {
                             </div>
                             <div className={style.heading}>Glance into VR </div>
                             <div className={style.content}>From climbing through the hillocks of distant planets to walking through history as it unfolds and roaming around any campus of the world, the world of VR is vast. Bring life to the pictures and let the user breathe in the actual wind.</div>
-                            <div className={style.learnmore}>
+                            {/* <div className={style.learnmore}>
                                 Learn More
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -40,9 +40,9 @@ const Servicenext = () => {
                             </div>
                             <div className={style.heading}>3D Modeling Preview</div>
                             <div className={style.content}>Millions of pictures merged together to deliver a keen detail of existent. 3D Modeling is the art that thrives on the edge of technology and imagination. Shape the customer decision by fostering every bit of your product on the website.</div>
-                            <div className={style.learnmore}>
+                            {/* <div className={style.learnmore}>
                                 Learn More
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className={style.imgbox}>

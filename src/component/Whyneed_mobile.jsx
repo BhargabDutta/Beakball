@@ -39,7 +39,7 @@ const Whyneed = () => {
 
   return (
     <div style={{ padding: "20px", display: "none" }} className="mobile-only">
-      <div style={{fontSize:"25px",fontWeight:"bold", padding:"5px"}}>Why we need Virtual Reality?</div>
+      <div style={{fontSize:"25px",fontWeight:"bold", padding:"5px",color:"black",textAlign:"center"}}>Why we need Virtual Reality?</div>
       <div style={{ display: "flex", flexDirection: "row",marginTop:"30px" }}>
         <div style={{ display: "flex", flexDirection: "column", width: "15%", marginRight: "10px", height: "350px", }}>
           {[0, 1, 2, 3, 4].map((index) => (
@@ -58,7 +58,7 @@ const Whyneed = () => {
                 fontSize: "20px",
                 width: "50px",
                 height: "50px",
-              }}
+              color:"black"}}
               className='togglebuttons'
               onClick={() => handleToggle(index)}
             >

@@ -1,91 +1,124 @@
 import React from 'react';
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-} from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import Logo from "../assets/Logo.webp";
-
-export default function Footer() {
+export default function App() {
   return (
-    <MDBFooter className='bg-dark text-white text-center'>
-      <MDBContainer className='p-4'>
-        <MDBRow>
-          <MDBCol lg="6" md="12" className='mb-4 mb-md-0'>
-            <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",gap:"10px"}}>
-            <img src={Logo} alt="" style={{width:"30px",height:"auto"}} />
-            <h5 className='text-uppercase'>Beakball</h5>
-</div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias.
-              Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam,
-              est atque cumque eum delectus sint!
-            </p>
-          </MDBCol>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-0 d-none d-lg-block'>
+          <span>Get connected with us on social networks:</span>
+        </div>
 
-          <MDBCol lg="3" md="6" className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase'>Quick Links</h5>
+        <div>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='facebook-f' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='twitter' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='google' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='instagram' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='linkedin' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon color='secondary' fab icon='github' />
+          </a>
+        </div>
+      </section> */}
 
-            <ul className='list-unstyled mb-0'>
-              <li>
-                <a href='#!' className='text-white'>
-                  Contact
+      <section className=''style={{height:"fit-content",padding:"20px"}}>
+        <MDBContainer className='text-center text-md-start'style={{height:"fit-content"}}>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4' style={{color:"white"}}>
+                <img src={Logo} alt="" style={{width:"30px",height:"auto",marginRight:"20px"}} />
+                Beakball
+              </h6>
+              <p>
+                What You Can Imagine, WE can Bring It To You.
+              </p>
+            </MDBCol>
+
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4' style={{color:"white"}}>Quick Links</h6>
+              <p>
+                <a href='/' className='text-reset'>
+                  Home
                 </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
-                  Faq
+              </p>
+              <p>
+                <a href='/about' className='text-reset'>
+                  About
                 </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
-                  Terms and conditions
+              </p>
+              <p>
+                <a href='/service' className='text-reset'>
+                  Services
                 </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
+              </p>
+              <p>
+                <a href='/portfolio' className='text-reset'>
+                  Portfolio
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4' style={{color:"white"}}>Useful links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Terms and Conditions
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
                   Privacy Policy
                 </a>
-              </li>
-            </ul>
-          </MDBCol>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Copyright
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Help
+                </a>
+              </p>
+            </MDBCol>
 
-          <MDBCol lg="3" md="6" className='mb-4 mb-md-0'>
-            <h5 className='text-uppercase mb-0'>Connect with us on</h5>
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4' style={{color:"white"}}>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-2' />
+                New York, NY 10012, US
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                info@example.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
 
-            <ul className='list-unstyled'>
-              <li>
-                <a href='#!' className='text-white'>
-                  Linkedin
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
-                  Youtube
-                </a>
-              </li>
-              <li>
-                <a href='#!' className='text-white'>
-                  Facebook
-                </a>
-              </li>
-            </ul>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
-        <a className='text-white' href='https://mdbootstrap.com/'>
+      {/* <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2021 Copyright:
+        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
           MDBootstrap.com
         </a>
-      </div>
+      </div> */}
     </MDBFooter>
   );
 }

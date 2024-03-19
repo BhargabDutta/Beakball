@@ -29,9 +29,9 @@ export default function Servicepage_pt2() {
         </MDBContainer>
       </div>
       <div className={responsive.service_card_desktop}>
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div style={{ display: "flex", flexDirection: "row",alignItems:"center",justifyContent:"center",gap:"20px" }}>
           <div>
-            <MDBCol size='md' style={{ width: "fit-content", padding: "40px" }}>
+            <MDBCol size='md' style={{ width: "600px", padding: "40px" }}>
               <Servicepage_pt2_cards
                 img={camera}
                 width="220px" height="auto" padding="30px"
@@ -40,12 +40,12 @@ export default function Servicepage_pt2() {
             </MDBCol>
           </div>
           <div>
-            <MDBCol size='md' style={{ width: "fit-content", padding: "40px" }}>
+            <MDBCol size='md' style={{ width: "600px", padding: "40px" }}>
               <Servicepage_pt2_cards
                 img={car}
                 width="480px" height="auto" padding="0px"
                 title="AI Generated 3D World"
-                content="Leverage the power of Artificial Intelligence to impart a virtual tour on your website. Bring astonishing landscapes and components to your page and boost the overall visitor experience. "
+                content="Leverage the power of Artificial Intelligence to impart a virtual tour on your website. Bring astonishing landscapes and components to your page. "
                 bgColor="white"
                 fontColor="black" />
             </MDBCol>

@@ -15,10 +15,10 @@ const Whyneed = () => {
   return (
     <div style={{height:"100vh",width:"100%",padding:"20px"}} className='desktop_only'>
 
-      <div style={{fontSize:"30px",fontWeight:"bold", padding:"30px"}}>Why we need Virtual Reality?</div>
+      <div style={{fontSize:"30px",fontWeight:"bold", padding:"30px",color:"black",width:"100%",textAlign:"center"}}>Why we need Virtual Reality?</div>
       <div style={{ display: "flex", flexDirection: "row", width: "100%" }}>
         <div style={{ width: "50%" }}>
-          <div style={{ display: "flex", flexDirection: "row", width: "50vw", padding: "20px", gap: "20px" }}>
+          <div style={{ display: "flex", flexDirection: "row", width: "50vw", padding: "20px", gap: "20px",color:"black" }}>
             <div
               style={{
                 fontWeight: "bold",
@@ -34,7 +34,7 @@ const Whyneed = () => {
                 flexDirection:"column",
                 alignItems:"center",
                 justifyContent:"center"
-              }}
+                ,color:"black"}}
               className='togglebuttons'
               onClick={() => handleToggle(0)}
               onMouseOver={(e) => e.currentTarget.style.boxShadow = "0px 0px 10px 1px rgba(0,0,0,0.5)"}

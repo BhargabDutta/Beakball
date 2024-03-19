@@ -12,7 +12,7 @@ import card8 from "../assets/card8.png";
 import responsive from "../styles/responsive.module.css"
 export default function Portfoliogrid() {
     return (
-        <div style={{overflow:"hidden",paddingTop:"40px"}}>
+        <div style={{padding:"20px",margin:"50px"}}>
             <div style={{fontSize:"30px",padding:"23px",fontWeight:"bold"}}>Our Projects</div>
             <hr style={{width:"96%",borderColor:"blue",borderWidth:"5px", margin:"0 auto"}}/>
             <MDBRow style={{display:"flex",alignItems:"start",justifyContent:"space-around",marginTop:"30px"}}>

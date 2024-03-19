@@ -55,7 +55,7 @@ const Projects = () => {
       <div className="mt-20 mx-[150px]  mb-[10px] font-bold text-[60px]">
         Our Projects
       </div>
-      <div className="h-1 w-[85%] mx-[150px] mb-[20px] bg-blue-900"></div>
+      <div className="h-1 w-[85%] mx-[250px] mb-[20px] bg-blue-900"></div>
       <div className="w-[95%] justify-center mx-auto flex flex-wrap gap-10 ">
         {data.map((el, id) => (
           <>

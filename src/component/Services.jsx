@@ -52,15 +52,15 @@ const Services = () => {
                                     <div className={style.rightcntr}>
                                         <div className={style.heading}>AI Generative HDRI Mapping- </div>
                                         <div className={style.content}>Leverage the power of Artificial Intelligence to impart a virtual tour on your website. Bring astonishing landscapes and components to your page and boost the overall visitor experience. </div>
-                                        <div className={style.learnmore}>
+                                        {/* <div className={style.learnmore}>
                                             Learn More
-                                        </div>
+                                        </div> */}
 
                                         <div className={style.heading1}>Live/On-Site HDRI Mapping- </div>
                                         <div className={style.content}>Capture your place and craft a High Dynamic Range Image. Bring a more realistic feel of your place on the website to bring more customers into the fence. </div>
-                                        <div className={style.learnmore}>
+                                        {/* <div className={style.learnmore}>
                                             Learn More
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -81,9 +81,9 @@ const Services = () => {
                                     <div className={style.rightcntr}>
                                         <div className={style.heading}>Polygonal Modeling-</div>
                                         <div className={style.content}> Upload each thread of your product via polygonal modeling. Bring the product into customers’ palms and encourage them to buy. </div>
-                                        <div className={style.learnmore}>
+                                        {/* <div className={style.learnmore}>
                                             Learn More
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
