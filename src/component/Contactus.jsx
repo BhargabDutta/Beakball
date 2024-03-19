@@ -128,9 +128,10 @@ import responsive from '../styles/responsive.module.css';
 const Contactus = () => {
     useEffect(() => {
         const scriptURL = "https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec";
-        const form = document.forms["contact-form"];
+        const formDesktop = document.forms["contact-form-desktop"];
+        const formMobile = document.forms["contact-form-mobile"];
 
-        const handleSubmit = (e) => {
+        const handleSubmit = (e, form) => {
             e.preventDefault();
             fetch(scriptURL, { method: "POST", body: new FormData(form) })
                 .then(response => alert("Thank you! Your response has been submitted successfully"))
@@ -138,13 +139,20 @@ const Contactus = () => {
                 .catch(error => console.error("Error!", error.message));
         };
 
-        if (form) {
-            form.addEventListener("submit", handleSubmit);
+        if (formDesktop) {
+            formDesktop.addEventListener("submit", (e) => handleSubmit(e, formDesktop));
+        }
+
+        if (formMobile) {
+            formMobile.addEventListener("submit", (e) => handleSubmit(e, formMobile));
         }
 
         return () => {
-            if (form) {
-                form.removeEventListener("submit", handleSubmit);
+            if (formDesktop) {
+                formDesktop.removeEventListener("submit", handleSubmit);
+            }
+            if (formMobile) {
+                formMobile.removeEventListener("submit", handleSubmit);
             }
         };
     }, []);
@@ -177,7 +185,7 @@ const Contactus = () => {
 
                             <div className={styles.form}>
                                 <div className={styles.name}>
-                                    <form method='post' action='https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec' name='contact-form'>
+                                    <form method='post' action='https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec' name='contact-form-desktop'>
                                         <div className={styles.formgroup}>
 
                                             <input type="text" id="first_name" name="first_name" placeholder="First Name" required />
@@ -230,7 +238,7 @@ const Contactus = () => {
                             <div>
                             <div style={{padding:"10px",backgroundColor:"white",borderRadius:"30px"}}>
                                 <div className={styles.name}>
-                                    <form method='post' action='https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec' name='contact-form'>
+                                    <form method='post' action='https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec' name='contact-form-mobile'>
                                         <div className={styles.formgroup}>
 
                                             <input type="text" id="first_name" name="first_name" placeholder="First Name" required />
