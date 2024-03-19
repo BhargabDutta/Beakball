@@ -15,7 +15,7 @@ import Servicepage from './component/Servicepage';
 import Successpt2 from './component/Successpt2';
 import Successpt3 from './component/Successpt3';
 import Faq from './component/Faq';
-import About from './component/About';
+// import About from './component/About';
 import React, { Component } from "react";
 import {
     BrowserRouter as Router,
@@ -34,7 +34,7 @@ function App() {
           <Route path="/" element={<Homescreen />} />
           <Route path="/service" element={<Servicepage />} />
           <Route path="/contact" element={<Contactpage />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/portfolio" element={<Portfoliopage/>} />
       </Routes>
     </Router>
