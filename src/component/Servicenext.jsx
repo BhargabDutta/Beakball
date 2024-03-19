@@ -68,9 +68,9 @@ const Servicenext = () => {
                             From climbing through the hillocks of distant planets to walking through history as it unfolds and roaming around any campus of the world, the world of VR is vast. Bring life to the pictures and let the user breathe in the actual wind.
                         </div>
                         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                            <div style={{ border: "2px solid white", color: "white", paddingLeft: "10px", paddingRight: "10px", width: "fit-content" }}>
+                            {/* <div style={{ border: "2px solid white", color: "white", paddingLeft: "10px", paddingRight: "10px", width: "fit-content" }}>
                                 Learn more
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <hr style={{border:"2px solid white",width:"80%"}}/>
@@ -86,9 +86,9 @@ const Servicenext = () => {
 
                         </div>
                         <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                            <div style={{ border: "2px solid white", color: "white", paddingLeft: "10px", paddingRight: "10px", width: "fit-content" }}>
+                            {/* <div style={{ border: "2px solid white", color: "white", paddingLeft: "10px", paddingRight: "10px", width: "fit-content" }}>
                                 Learn more
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
