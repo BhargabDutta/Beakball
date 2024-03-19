@@ -45,7 +45,7 @@ const Nav = () => {
           </div>
         </nav>
       </div>
-      <div className={responsive.nav_mobile}>
+      <div className={responsive.nav_mobile} >
         {/* <div style={{height:"60px",width:"100%"}}></div> */}
         <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)" }}>
           <div className="container-fluid">
