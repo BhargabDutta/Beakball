@@ -26,8 +26,8 @@ const Homescreen = () => {
             <div style={{ backgroundColor: "blue", borderRadius: "10px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "10px", paddingRight: "10px", paddingTop: "7px", paddingBottom: "7px", marginTop: "70px", fontWeight: "bold",cursor:"pointer"}}>DEMO TOUR</div>
           </div>
         </div>
-        <video autoPlay loop muted controls={false}>
-          <source src={backgroundVideo} type="video/mp4" />
+        <video autoPlay loop muted controls={false} style={{width:"100%",height:"100vh",objectFit:"cover"}}>
+          <source src={backgroundVideo} type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
 
