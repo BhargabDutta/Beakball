@@ -4,6 +4,7 @@ import about2 from "../assets/about2.mp4";
 import about3 from "../assets/about3.jpeg";
 import about4 from "../assets/about4.jpeg";
 import ramanand from "../assets/ramanand.png";
+import bhargab from "../assets/bhargab.png";
 import styles from "../styles/about.module.css";
 const About = () => {
     return (
@@ -115,7 +116,7 @@ const About = () => {
                 </div>
 
                 <div className={styles.profiles}>
-                    <img src={ramanand} alt="" className={styles.contri_img} />
+                    <img src={bhargab} alt="" className={styles.contri_img} />
                     <div className={styles.name_contri}>
                     Bharghab Dutta: Co-founder and CTO,
                     </div>
