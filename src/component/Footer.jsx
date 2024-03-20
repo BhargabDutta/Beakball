@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import Logo from "../assets/Logo.webp";
 export default function App() {
   return (
-    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted' style={{overflow:"hidden"}}>
       {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-0 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -40,7 +40,7 @@ export default function App() {
                 Beakball
               </h6>
               <p>
-                What You Can Imagine, WE can Bring It To You.
+                What You Can Imagine, We can Bring It To You.
               </p>
             </MDBCol>
 
@@ -71,12 +71,12 @@ export default function App() {
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color:"white"}}>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Terms' className='text-reset'>
                   Terms and Conditions
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Privacy' className='text-reset'>
                   Privacy Policy
                 </a>
               </p>
@@ -96,18 +96,20 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                New York, NY 10012, US
+                Mansarovar, Jaipur, Rajasthan.
+                <br/>C5, 2nd Floor, 80 Feet Road, Kiran Path, Shanthi Nagar, PIN: 302019
+                
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                info@example.com
+                sales@beakball.com
               </p>
               <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+                <MDBIcon color='secondary' icon='phone' className='me-3' />  +917002252185
               </p>
-              <p>
+              {/* <p>
                 <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
-              </p>
+              </p> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>

@@ -16,6 +16,8 @@ import Successpt2 from './component/Successpt2';
 import Successpt3 from './component/Successpt3';
 import Faq from './component/Faq';
 import About from './component/About';
+import Privacy from './component/Privacy';
+import Terms from './component/Terms';
 import React, { Component } from "react";
 import {
     BrowserRouter as Router,
@@ -36,19 +38,11 @@ function App() {
           <Route path="/contact" element={<Contactpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfoliopage/>} />
+          <Route path="/Privacy" element={<Privacy/>} />
+          <Route path="/Terms" element={<Terms/>} />
+
       </Routes>
     </Router>
-    
-{/* <Faq/> */}
-
-
-      
-     
-     
-    {/* <Servicepage/> */}
-  
-    {/* <Portfoliopage/> */}
-    {/* <Contactpage/> */} 
     
     <Footer/>
     </>

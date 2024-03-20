@@ -1,5 +1,6 @@
 .full{
 padding:100px;
+/* border:2px solid red */
 }
 .about_hero{
     display: flex;
@@ -11,6 +12,8 @@ padding:100px;
     /* border: 2px solid red; */
     height:auto;
     margin-top: 0px;
+/* padding:100px; */
+
 }
 .abouthero_content{
     /* border:2px solid red; */

@@ -1,0 +1,15 @@
+.privacy{
+    padding: 5%;
+}
+.privacy_content{
+    margin-top: 5%;
+}
+.privacy_content>h2{
+    margin-top: 50px;
+}
+.privacy_content>h3{
+    margin-top: 50px;
+}
+li{
+    padding: 10px;
+}
