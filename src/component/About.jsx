@@ -74,7 +74,7 @@ const About = () => {
                     <div className={styles.about_head}>
                         Our Journey
                     </div>
-                    <div className={styles.about_welcome}>
+                    <div className={styles.our_head}>
                         From Ideation to Innovation
                     </div>
                     <div className={styles.paragraph_our}>
@@ -89,7 +89,7 @@ const About = () => {
                     <div className={styles.about_head}>
                         Our Vision
                     </div>
-                    <div className={styles.about_welcome}>
+                    <div className={styles.our_head}>
                         Shaping the Digital Future
                     </div>
                     <div className={styles.paragraph_our}>

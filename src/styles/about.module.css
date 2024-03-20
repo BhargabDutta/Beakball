@@ -21,6 +21,7 @@ padding:100px;
     width:500px;
     height:70vh;
     object-fit: cover;
+    /* border: 2px solid red; */
 }
 .about_head{
     font-size: 20px;
@@ -32,17 +33,16 @@ padding:100px;
     padding-bottom: 20px;
 }
 .paragraph{
-    font-size: 19px;
-    
+    font-size: 19px; 
 }
 
 /* ...... */
 .mission{
     width:100%;
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-
+    margin-top: 0px;
+    margin-bottom: 100px;
+    /* border: 2px solid red; */
 }
 /* ...................... */
 .setapart{
@@ -89,6 +89,13 @@ padding:100px;
     height:fit-content;
     gap:40px;
 }
+.our_head{
+        font-size: 30px;
+        color: orange;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+}
 .ourimg{
     width:240px;
     height:auto;
@@ -96,7 +103,6 @@ padding:100px;
 }
 .paragraph_our{
     font-size: 20px;
-    
 }
 /* ....................... */
 .contributors{
