@@ -6,6 +6,8 @@ import card3 from "../assets/card3.png";
 import servicenextplay from '../assets/servicenextplay.png';
 import vrlogo from "../assets/3.png";
 import responsive from "../styles/responsive.module.css";
+import { Link } from 'react-router-dom';
+import animation from "../styles/animation.module.css";
 const Portfoliohero = () => {
   return (
     <>
@@ -23,7 +25,7 @@ const Portfoliohero = () => {
               <hr style={{ width: "95%", border: "2px solid blue", margin: "0" }} />
 
               <div style={{ fontSize: "13px", color: "black", paddingTop: "20px", paddingBottom: "40px", width: "200px" }}>Experience the wonders of the world on your digital devices  and experience 360 Virtual reality.</div>
-              <div style={{ fontSize: "19px", width: "fit-content", padding: "5px", paddingLeft: "15px", paddingRight: "15px", backgroundColor: "black", color: "white", cursor: "pointer", marginBottom: "70px" }}>Lets Connect</div>
+              <div className={animation.button_cntr_portfolio}><Link to="/contact" className={animation.connect_button_portfolio}>Lets Connect</Link></div>
               <div>
                 {/* <img></img> */}
                 <div style={{ display: "flex", flexDirection: "row", }}>

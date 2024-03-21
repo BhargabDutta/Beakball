@@ -6,3 +6,39 @@
     border:2px solid black;
     /* color:black; */
 }
+.connect_button_portfolio{
+    text-decoration: none;
+    color:white;
+}
+.connect_button_portfolio:hover{
+    font-weight: normal;
+    color:visible;
+}
+.button_cntr_portfolio{
+    font-size: 19px;
+    width:fit-content;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 70px; 
+    border:2px solid white;
+
+}
+.button_cntr_portfolio:hover{
+    /* background-color: white; */
+    border:2px solid black;
+    color:black;
+    border-radius: 10px;
+    transition:0.5s ease-in-out;
+}
+.button_links{
+    color:rgb(226, 147, 0);
+    padding: 10px;
+}
+.button_links:hover{
+    font-weight: normal;
+    color: rgb(226, 147, 0);
+}

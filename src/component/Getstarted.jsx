@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/getstarted.css';
+import { Link } from 'react-router-dom';
 const Getstarted = () => {
   return (
     <div className='full'>
@@ -7,7 +8,7 @@ const Getstarted = () => {
         <div className="head_get">Ready to get started?</div>
         <div className='subheading'>Schedule a live demo with one of our virtual tour experts</div>
         <div className='buttoncntr'>
-        <div className='button'>Lets Connect</div>
+        <Link to="/contact" className='button'>Lets Connect</Link>
         </div>
         </div>
     </div>

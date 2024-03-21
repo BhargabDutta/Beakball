@@ -4,6 +4,8 @@ import style from '../styles/service.module.css';
 import vrimg from '../assets/vrimg.png';
 import polygonal from '../assets/polygonal.png';
 import responsive from '../styles/responsive.module.css';
+import { Link } from 'react-router-dom';
+import animation from "../styles/animation.module.css";
 const Services = () => {
     const [showSection1, setShowSection1] = useState(true);
     const [showSection2, setShowSection2] = useState(false);
@@ -45,7 +47,8 @@ const Services = () => {
                                         <div className={style.heading}>Virtual Reality </div>
                                         <div className={style.content}>Transfigure the overall look of your existing website. Present your infrastructure, space, product, or services in a novel way. Invite the customers to your website and make their jaws drop with the best experience-driven virtual tours of your place.</div>
                                         <div className={style.learnmore}>
-                                            Lets Work Together
+                                            <Link to="/service" className={animation.button_links}>
+                                            Lets Work Together</Link>
                                         </div>
 
                                     </div>
@@ -120,7 +123,7 @@ const Services = () => {
                         <div style={{ color: "black", fontSize: "15px" }}>
                             Transfigure the overall look of your existing website. Present your infrastructure, space, product, or services in a novel way. Invite the customers to your website and make their jaws drop with the best experience-driven virtual tours of your place.
                         </div>
-                        <div style={{ border: "2px solid orange", width: "fit-content", color: "orange", fontSize: "16px", padding: "5px", marginTop: "10px" }}>
+                        <div className={style.learnmore}>
                             Lets Work Together
                         </div>
                     </div>

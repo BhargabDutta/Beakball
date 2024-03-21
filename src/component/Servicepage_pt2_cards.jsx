@@ -20,7 +20,7 @@ export default function Servicepage_pt2_cards(props) {
         <MDBCardText style={{fontSize:"19px"}}>
         {props.content} 
         </MDBCardText>
-        <MDBBtn href='#'>Lets Connect</MDBBtn>
+        <MDBBtn href='/contact'>Lets Connect</MDBBtn>
       </MDBCardBody>
     </MDBCard>
     </>

@@ -45,6 +45,16 @@
     left: 0;
     right: 0;
     margin: auto;
+    padding: 15px;
+}
+.button:hover{
+    text-decoration: none;
+    font-weight: normal;
+    border:3px solid white;
+    /* color: white; */
+    background: none;
+    transition: 0.1s ease-in-out;
+    border-radius: 15px;
 }
 
 @media only screen and (max-width:600px){
