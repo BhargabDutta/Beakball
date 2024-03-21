@@ -1,7 +1,7 @@
 import React from 'react'
 import portfoliohero from '../assets/portfoliohero.png';
 import porthero from '../assets/porthero.png';
-import card2 from "../assets/card2.png";
+import ecocamp from "../assets/ecocamp.png";
 import card3 from "../assets/card3.png";
 import servicenextplay from '../assets/servicenextplay.png';
 import vrlogo from "../assets/3.png";
@@ -43,7 +43,9 @@ const Portfoliohero = () => {
               <div style={{ width: "250px" }}>
                 <div style={{ position: "relative" }}>
                   <img src={card3} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
-                  <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} />
+
+                  <a href='https://beakverse.beakball.com/' target='_blank'>
+                  <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} /></a>
                 </div>
 
                 <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Beakverse</div>
@@ -52,11 +54,12 @@ const Portfoliohero = () => {
 
               <div style={{ width: "250px", marginTop: "20px" }}>
                 <div style={{ position: "relative" }}>
-                  <img src={card2} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
-                  <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} />
+                  <img src={ecocamp} style={{ width: "250px", height: "120px", borderRadius: "30px" }} alt="" />
+                  <a href='https://ecocamp.beakball.com/' target='_blank'>
+                  <img src={servicenextplay} style={{ width: "50px", height: "auto", position: "absolute", zIndex: "2", cursor: "pointer", left: "0", right: "0", top: "0", bottom: "0", margin: "auto" }} /></a>
                 </div>
-                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px" }}>University and College</div>
-                <div style={{ fontSize: "13px", width: "250px" }}>We created the virtual reality tour of this college while injecting each road, department, and building of the campus. Roam through the walkways and explore the college premises with a VR tour.
+                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px" }}>Borail Eco Camp</div>
+                <div style={{ fontSize: "13px", width: "250px" }}>Experience tourism to wild camps where you will be close to nature through the virtual world.
                 </div>
               </div>
             </div>
@@ -91,7 +94,8 @@ const Portfoliohero = () => {
             <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",gap:"15px"}}>
             <div style={{ width: "fit-content" }}>
                 <div style={{ position: "relative" }}>
-                  <img src={card3} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" />
+                  <a href='https://beakverse.beakball.com/' target='_blank'>
+                  <img src={card3} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" /></a>
                 </div>
 
                 <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Beakverse</div>
@@ -100,11 +104,12 @@ const Portfoliohero = () => {
 
               <div style={{ width: "fit-content" }}>
                 <div style={{ position: "relative" }}>
-                  <img src={card2} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" />
+                  <a href='https://ecocamp.beakball.com/' target='_blank'>
+                  <img src={ecocamp} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" /></a>
                 </div>
 
-                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>University</div>
-                <div style={{ fontSize: "10px", width: "100px",padding:"3px" }}>Roam through the walkways and explore the college premises with a VR tour.</div>
+                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Borail Eco Camp</div>
+                <div style={{ fontSize: "10px", width: "100px",padding:"3px" }}>Experience tourism to wild camps where you will be close to nature through the virtual world.</div>
               </div>
               
             </div>

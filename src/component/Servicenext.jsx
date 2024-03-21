@@ -16,7 +16,8 @@ const Servicenext = () => {
                     <div className={style.box1}>
                         <div className={style.imgbox}>
                             <img src={success2} className={style.box1img} />
-                            <img src={servicenextplay} style={{ width: "100px", height: "auto", position: "absolute", zIndex: "2", left: "400px", marginTop: "150px", cursor: "pointer" }} />
+                            <a href='https://hotel.beakball.com/' target='_blank'>
+                            <img src={servicenextplay} style={{ width: "100px", height: "auto", position: "absolute", zIndex: "2", left: "400px", marginTop: "150px", cursor: "pointer" }} /></a>
                         </div>
 
                         <div className={style.contentbox}>
@@ -47,7 +48,8 @@ const Servicenext = () => {
 
                         <div className={style.imgbox}>
                             <img src={servicenext2} className={style.box1img} />
-                            <img src={servicenextplay} style={{ width: "100px", height: "auto", position: "absolute", zIndex: "2", right: "350px", marginTop: "250px", cursor: "pointer" }} />
+                            <a href='https://car.beakball.com/' target='_blank'>
+                            <img src={servicenextplay} style={{ width: "100px", height: "auto", position: "absolute", zIndex: "2", right: "350px", marginTop: "250px", cursor: "pointer" }} /></a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +64,8 @@ const Servicenext = () => {
 
                         <div style={{ paddingBottom: "10px",position:"relative" }}>
                             <img src={success2} style={{ width: "380px", height: "auto", borderRadius: "20px" }} />
-                            <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} />
+                            <a href='https://hotel.beakball.com/' target='_blank'>
+                            <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} /></a>
                         </div>
                         <div style={{ fontSize: "15px", color: "white", width: "350px", paddingBottom: "20px", padding: "10px" }}>
                             From climbing through the hillocks of distant planets to walking through history as it unfolds and roaming around any campus of the world, the world of VR is vast. Bring life to the pictures and let the user breathe in the actual wind.
@@ -78,8 +81,10 @@ const Servicenext = () => {
                         <div style={{ fontSize: "20px", color: "white", fontWeight: "bold", paddingBottom: "20px" }}>3D Modeling Preview</div>
 
                         <div style={{ paddingBottom: "10px",position:"relative" }}>
+                            
                             <img src={servicenext2} style={{ width: "380px", height: "auto", borderRadius: "20px" }} />
-                            <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} />
+                            <a href='https://car.beakball.com/' target='_blank'>
+                            <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} /></a>
                         </div>
                         <div style={{ fontSize: "15px", color: "white", width: "350px", paddingBottom: "20px", padding: "10px" }}>
                         Millions of pictures merged together to deliver a keen detail of existent. 3D Modeling is the art that thrives on the edge of technology and imagination. Shape the customer decision by fostering every bit of your product on the website. 

@@ -25,7 +25,9 @@ const Servicepage = () => {
               <div style={{ color: "white", fontSize: "60px", fontWeight: "bold", width: "400px" }}>Virtual Reality Website  </div>
               <div>
                 <div style={{ fontSize: "19px", marginTop: "20px" }}>Create your interactive Virtual reality tour with Beakball</div>
+                <a href='https://hotel.beakball.com/' target="_blank">
                 <div style={{ backgroundColor: "blue", borderRadius: "10px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "10px", paddingRight: "10px", paddingTop: "7px", paddingBottom: "7px", marginTop: "30px", fontWeight: "bold" }}>Experience a tour</div>
+                </a>
               </div>
             </div>
           </div>
@@ -44,7 +46,8 @@ const Servicepage = () => {
               <div style={{ color: "white", fontSize: "30px", fontWeight: "bold", width: "400px",marginTop:"150px" }}>Virtual Reality Website  </div>
               <div>
                 <div style={{ fontSize: "25px", marginTop: "30px" }}>Create your interactive Virtual reality tour with Beakball</div>
-                <div style={{ backgroundColor: "blue", borderRadius: "10px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "10px", paddingRight: "10px", paddingTop: "3px", paddingBottom: "3px", marginTop: "30px", fontWeight: "bold" }}>Experience a tour</div>
+                <a href='https://hotel.beakball.com/' target="_blank">
+                <div style={{ backgroundColor: "blue", borderRadius: "10px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "10px", paddingRight: "10px", paddingTop: "3px", paddingBottom: "3px", marginTop: "30px", fontWeight: "bold" }}>Experience a tour</div></a>
               </div>
             </div>
           </div>

@@ -114,6 +114,12 @@
 .porthero_margin{
     margin-top: 0px;
 }
+/* ................................ */
+.card_anchor:hover{
+    text-decoration: none;
+    font-weight: normal;
+
+}
 
 
 @media only screen and (max-width:600px)
