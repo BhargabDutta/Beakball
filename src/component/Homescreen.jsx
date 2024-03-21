@@ -44,7 +44,7 @@ const Homescreen = () => {
             <div style={{ color: "white", fontSize: "20px", fontWeight: "bold" ,paddingTop:"20px"}}>Where Your Brand’s Vision Meets Virtual Reality</div>
             <div style={{ fontSize: "15px", marginTop: "20px" }}>Secure the competitive advantages for your business by walking ahead of your peers. Impart the capability of 3D modeling and virtual reality into your online presence.</div>
             <a href='https://banner.beakball.com/' target='_blank'>
-            <div style={{ backgroundColor: "blue", borderRadius: "5px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "8px", paddingRight: "8px", paddingTop: "2px", paddingBottom: "2px", marginTop: "10px", fontWeight: "bold" }}>DEMO TOUR</div></a>
+            <div style={{ backgroundColor: "blue", borderRadius: "5px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "8px", paddingRight: "8px", paddingTop: "2px", paddingBottom: "2px", marginTop: "10px", fontWeight: "bold" }}>Demo Tour</div></a>
           </div>
         </div>
         <video autoPlay loop muted controls={false} style={{ height: '100vh', width: '100%', objectFit: 'cover' }}>
