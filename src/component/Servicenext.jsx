@@ -11,6 +11,7 @@ import responsive from "../styles/responsive.module.css";
 const Servicenext = () => {
     return (
         <>
+        
             <div className={responsive.servicenext_desktop}>
                 <div className={style.maincntr}>
                     <div className={style.box1}>
@@ -58,12 +59,12 @@ const Servicenext = () => {
             </div>
 
             <div className={responsive.servicenext_mobile}>
-                <div style={{ backgroundColor: "#202020", width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
+                <div style={{ backgroundColor: "#202020", width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
                     <div style={{ marginTop: "30px",marginBottom:"30px" }}>
                         <div style={{ fontSize: "20px", color: "white", fontWeight: "bold", paddingBottom: "20px" }}>Glance into VR </div>
 
                         <div style={{ paddingBottom: "10px",position:"relative" }}>
-                            <img src={success2} style={{ width: "380px", height: "auto", borderRadius: "20px" }} />
+                            <img src={success2} style={{ width: "90vw", height: "auto", borderRadius: "20px" }} />
                             <a href='https://hotel.beakball.com/' target='_blank'>
                             <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} /></a>
                         </div>
@@ -82,7 +83,7 @@ const Servicenext = () => {
 
                         <div style={{ paddingBottom: "10px",position:"relative" }}>
                             
-                            <img src={servicenext2} style={{ width: "380px", height: "auto", borderRadius: "20px" }} />
+                            <img src={servicenext2} style={{ width: "90vw", height: "auto", borderRadius: "20px" }} />
                             <a href='https://car.beakball.com/' target='_blank'>
                             <img src={servicenextplay} style={{ position: "absolute", zIndex: "2", left: "50%", top: "50%", transform: "translate(-50%, -50%)", cursor: "pointer",height:"auto",width:"50px" }} /></a>
                         </div>
