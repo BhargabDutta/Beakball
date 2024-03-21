@@ -6,6 +6,7 @@ import polygonal from '../assets/polygonal.png';
 import responsive from '../styles/responsive.module.css';
 import { Link } from 'react-router-dom';
 import animation from "../styles/animation.module.css";
+import { MDBCard } from 'mdb-react-ui-kit';
 const Services = () => {
     const [showSection1, setShowSection1] = useState(true);
     const [showSection2, setShowSection2] = useState(false);
@@ -30,6 +31,7 @@ const Services = () => {
     return (
         <>
             <div className={responsive.hero_service_desktop}>
+                <MDBCard>
                 <div style={{ height: "fit-content", marginTop: "100px" }}>
                     <div className={style.maincntr}>
                         <div className={style.mainhead}>Our Services</div>
@@ -94,8 +96,9 @@ const Services = () => {
 
                     </div>
                 </div>
+                </MDBCard>
             </div>
-
+<MDBCard>
             <div className={responsive.hero_service_mobile} style={{ padding: "27px" }}>
                 <div style={{ width: "100%", height: "auto" }}>
                     <div style={{ color: "black", fontSize: "20px", fontWeight: "bold" }}>
@@ -184,6 +187,7 @@ const Services = () => {
                 </div>
                 )}
             </div>
+            </MDBCard>
         </>
     )
 }
