@@ -31,7 +31,7 @@ export default function App() {
         </div>
       </section> */}
 
-      <section className=''style={{height:"fit-content",padding:"20px"}}>
+      <section style={{height:"fit-content",padding:"20px"}}>
         <MDBContainer className='text-center text-md-start'style={{height:"fit-content"}}>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
