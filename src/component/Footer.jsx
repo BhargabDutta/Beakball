@@ -3,6 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 import Logo from "../assets/Logo.webp";
 export default function App() {
   return (
+    <>
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted' style={{overflow:"hidden"}}>
       {/* <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-0 d-none d-lg-block'>
@@ -122,5 +123,6 @@ export default function App() {
         </a>
       </div> */}
     </MDBFooter>
+    </>
   );
 }
