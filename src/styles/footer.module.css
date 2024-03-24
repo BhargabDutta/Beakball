@@ -1,0 +1,6 @@
+div>a>img:hover{
+    box-shadow: 2px 2px 5px 2px grey;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}

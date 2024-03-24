@@ -51,12 +51,14 @@ const Profile = () => {
                     </div>
                 <hr className={styles.horizontal_line} />
                 <div className={styles.iconbox_flex}>
-                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin" className={styles.logoicons} />
+                    <a href='https://in.linkedin.com/company/beakball?trk=public_profile_topcard-current-company' target='_blank'>
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin" className={styles.logoicons} /></a>
 
-                    <img width="50" height="50" src="https://img.icons8.com/ios/50/globe--v1.png" alt="globe--v1" className={styles.logoicons} />
+                    <a href='https://www.youtube.com/@BeakballFable' target='_blank'>
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/globe--v1.png" alt="globe--v1" className={styles.logoicons} /></a>
 
-
-                    <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/instagram-circle.png" alt="instagram-circle" className={styles.logoicons} />
+                    <a href='https://www.instagram.com/beakball_fable?igsh=MTNzNnpqcDdwM3E1ZA==' target='_blank'>
+                    <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/instagram-circle.png" alt="instagram-circle" className={styles.logoicons} /></a>
                 </div>
                 </div>
             </div>
