@@ -44,10 +44,10 @@ const Homescreen = () => {
         <div className={styles.section1}>
           <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: 2, fontSize: "25px", color: "white", display: "flex", alignItems: "center", justifyContent: "center" }}>
             <div style={{ width: "100%", height: "auto", padding: "20px", marginTop: "0px" }}>
-              <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", paddingTop: "20px" }}>Beakball: Interactive 3D Virtual Reality</div>
-              <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", paddingTop: "20px" }}>Unlock New Dimensions</div>
-              <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", paddingTop: "20px" }}>Where Your Brand’s Vision Meets Virtual Reality</div>
-              <div style={{ fontSize: "15px", marginTop: "20px" }}>Secure the competitive advantages for your business by walking ahead of your peers. Impart the capability of 3D modeling and virtual reality into your online presence.</div>
+              {/* <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", paddingTop: "20px" }}>Beakball: Interactive 3D Virtual Reality</div>
+              <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", paddingTop: "20px" }}>Unlock New Dimensions</div> */}
+              <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", paddingTop: "20px" }}>Feels Like Real Because It Is Real</div>
+              <div style={{ fontSize: "15px", marginTop: "20px" }}>Explore a Virtual Reality world where you can feel everything right in front of you, literally from anywhere.</div>
               <a href='https://banner.beakball.com/' target='_blank'>
                 <div style={{ backgroundColor: "blue", borderRadius: "5px", fontSize: "20px", color: "white", width: "fit-content", paddingLeft: "8px", paddingRight: "8px", paddingTop: "2px", paddingBottom: "2px", marginTop: "10px", fontWeight: "bold" }}>Demo Tour</div></a>
             </div>
