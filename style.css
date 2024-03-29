@@ -7,7 +7,7 @@
     background: #222;
   }
   #loading-screen>img{
-    width:200px;
+    width:100px;
     height: auto;
   }
   #loading-screen>.text{
@@ -15,17 +15,22 @@
     padding: 20px;
     text-align: center;
     font-size: 19px;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   .loading {
+    margin-top: 20px;
+    /* padding: 10px; */
     display: flex;
+    /* border: 2px solid white; */
+    /* height: auto;
+    width: 200px; */
   }
   .loading .dot {
     position: relative;
-    width: 2em;
-    height: 2em;
-    margin: 0.8em;
+    width: 1em;
+    height: 1em;
+    margin: 0.5em;
     border-radius: 50%;
   }
   .loading .dot::before {
