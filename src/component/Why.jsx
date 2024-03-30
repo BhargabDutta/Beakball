@@ -29,7 +29,7 @@ const Why = () => {
       <div className={style.why}>
 
         <div style={{ width: "100%", height: "430px", overflow: "hidden" }}>
-          <div style={{width:"100%",height:"fit-content",position:"absolute",zIndex:2,padding:"25px",marginTop:"150px"}}>
+          <div style={{width:"100%",height:"fit-content",position:"absolute",zIndex:2,padding:"25px",marginTop:"30vw"}}>
             <div style={{fontWeight:"bold", color:"white"}}>
             Pioneering Transformative Technologies to Explore New Dimensions of Endless Opportunities 
             </div>
