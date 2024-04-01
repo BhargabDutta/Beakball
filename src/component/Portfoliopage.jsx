@@ -11,4 +11,4 @@ const Portfoliopage = () => {
   )
 }
 
-export default Portfoliopage
+export default Portfoliopage;

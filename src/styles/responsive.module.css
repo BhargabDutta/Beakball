@@ -3,6 +3,7 @@
 }
 .nav_mobile{
     display: none;
+    overflow: hidden;
 }
 /*..............................................................*/
 .home_hero_desktop{
