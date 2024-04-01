@@ -92,12 +92,12 @@ const Portfoliohero = () => {
             </div>
           </div>
           <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
-            <img src={porthero} style={{width:"240px",height:"100px",objectFit:"cover",padding:"10px",borderRadius:"30px"}} alt="" />
-            <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",gap:"15px"}}>
+            <img src={porthero} style={{width:"220px",height:"100px",objectFit:"cover",padding:"10px",borderRadius:"30px"}} alt="" />
+            <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",gap:"5px"}}>
             <div style={{ width: "fit-content" }}>
                 <div style={{ position: "relative" }}>
                   <a href='https://beakverse.beakball.com/' target='_blank'>
-                  <img src={card3} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" /></a>
+                  <img src={card3} style={{ width: "90px", height: "50px", borderRadius: "15px" }} alt="" /></a>
                 </div>
 
                 <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Beakverse</div>
@@ -107,10 +107,10 @@ const Portfoliohero = () => {
               <div style={{ width: "fit-content" }}>
                 <div style={{ position: "relative" }}>
                   <a href='https://ecocamp.beakball.com/' target='_blank'>
-                  <img src={ecocamp} style={{ width: "100px", height: "50px", borderRadius: "15px" }} alt="" /></a>
+                  <img src={ecocamp} style={{ width: "90px", height: "50px", borderRadius: "15px" }} alt="" /></a>
                 </div>
 
-                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Borail Eco Camp</div>
+                <div style={{ fontSize: "15px", fontWeight: "bold", paddingTop: "10px", paddingBottom: "0px" }}>Eco Camp</div>
                 <div style={{ fontSize: "10px", width: "100px",padding:"3px" }}>Experience tourism to wild camps where you will be close to nature through the virtual world.</div>
               </div>
               

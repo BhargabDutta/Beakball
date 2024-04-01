@@ -73,7 +73,7 @@ export default function Successpt2() {
         grabCursor={true}
         modules={[EffectCards]}
         className="mySwiper"
-        style={{height:"400px",width:"280px"}}
+        style={{height:"350px",width:"200px"}}
       >
         <SwiperSlide>
           <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success1} />

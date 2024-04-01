@@ -47,7 +47,7 @@ const Nav = () => {
       </div>
       <div className={responsive.nav_mobile} >
         {/* <div style={{height:"60px",width:"100%"}}></div> */}
-        <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)" }}>
+        <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)",width:"100vw" }}>
           <div className="container-fluid">
             
             <NavLink className="navbar-brand" exact to="/" ><img src={Logo} style={{ width: "35px", height: "auto", marginLeft: "0px" }} /></NavLink>
