@@ -120,6 +120,13 @@
     font-weight: normal;
 
 }
+/* ................................ */
+.success_mobile{
+    display: none;
+}
+.success_desktop{
+    display: block;
+}
 
 
 @media only screen and (max-width:600px)
@@ -224,5 +231,11 @@
 
     .porthero_margin{
         margin-top: 70px;
+    }
+    .success_mobile{
+        display: block;
+    }
+    .success_desktop{
+        display: none;
     }
 }

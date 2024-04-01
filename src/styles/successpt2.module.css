@@ -1,0 +1,23 @@
+.mySwiper{
+  /* border: 2px solid green; */
+  height: 80vh;
+}
+.head{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  padding: 5%;
+  font-weight: bold;
+}
+.desktop_slideimg{
+  /* border:2px solid red; */
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
+.desktop_swiperslide{
+  /* border:2px solid red; */
+  height:400px;
+  width:500px;
+}

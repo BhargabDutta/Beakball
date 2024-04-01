@@ -1,55 +1,102 @@
-import React from 'react'
-// import Logo from "../assets/Logo.webp";
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCards } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-cards';
+
+// import '../styles/successpt2.css';
+import styles from "../styles/successpt2.module.css";
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
+import responsive from "../styles/responsive.module.css";
+
 import success1 from "../assets/success1.png";
 import success2 from "../assets/success2.png";
 import success3 from "../assets/success3.png";
-import '../styles/successpt2.css';
-const Successpt2 = () => {
-    return (
-        <div>
-            <div id="carouselExampleDark" className="carousel carousel-dark slide" style={{marginBottom:"0px"}}>
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div className="carousel-inner">
-                    <div className="carousel-item active" data-bs-interval="10000">
-                        <div className='image-container'>
-                        <img src={success1} className="d-block w-100" alt="..." /></div>
-                        <div className="carousel-caption d-none d-md-block" style={{color:"white"}}>
-                            <h5 style={{fontSize:"60px",color:"white"}}>BARAK VALLEY ENGINEERING COLLEGE</h5>
-                            <p style={{color:"white",fontSize:"20px"}}>Campus Tour with Voice Assistance guide</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item" data-bs-interval="2000">
-                    <div className='image-container'>
-                        <img src={success2} className="d-block w-100" alt="..." /></div>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5 style={{fontSize:"60px",color:"white"}}>Hotel Building Sample</h5>
-                            <p style={{color:"white",fontSize:"20px"}}>Hotel services and facilities</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                    <div className='image-container'>
-                        <img src={success3} className="d-block w-100" alt="..." /></div>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5 style={{fontSize:"60px",color:"white"}}>Virtual Theatre for Movie Premier</h5>
-                            <p style={{color:"white",fontSize:"20px"}}>Virtual Movie trailers and ticketing system</p>
-                        </div>
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" style={{backgroundColor:"white",padding:"0px"}}> 
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"  style={{backgroundColor:"white",padding:"0px" }}>
-                    <span className="carousel-control-next-icon" aria-hidden="true" ></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-    )
-}
+import success4 from "../assets/success4.jpeg";
+import success5 from "../assets/success5.jpeg";
+import success6 from "../assets/success6.jpeg";
 
-export default Successpt2;
+export default function Successpt2() {
+  return (
+    <>
+
+    <div className={styles.head}>Success Stories</div>
+    <div className={responsive.success_desktop}>
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={2}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className={styles.mySwiper}
+      >
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success1} />
+          hehehe
+        </SwiperSlide>
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success2} />
+        </SwiperSlide>
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success3} />
+        </SwiperSlide>
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success4} />
+        </SwiperSlide>
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success5} />
+        </SwiperSlide>
+        <SwiperSlide className={styles.desktop_swiperslide}>
+          <img className={styles.desktop_slideimg} src={success6} />
+        </SwiperSlide>
+      </Swiper>
+      </div>
+
+      <div className={responsive.success_mobile}>
+      <Swiper
+        effect={'cards'}
+        grabCursor={true}
+        modules={[EffectCards]}
+        className="mySwiper"
+        style={{height:"400px",width:"280px"}}
+      >
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success1} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success2} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success3} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success4} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success5} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img style={{height:"100%", width:"100%",objectFit:"cover",borderRadius:"10px"}} src={success6} />
+        </SwiperSlide>
+       
+        
+      </Swiper>
+      </div>
+    </>
+  );
+}
