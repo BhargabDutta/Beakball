@@ -63,7 +63,7 @@ const Servicepage = () => {
 
         {/* <Test /> */}
         {/* <New /> */}
-        <Vertical />
+        {/* <Vertical /> */}
         <Getstarted />
         <Whyneed style={responsive.whyneed_desktop} />
         <Whyneed_mobile />
