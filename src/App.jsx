@@ -7,10 +7,12 @@ import Portfoliopage from './component/Portfoliopage';
 import Footer from './component/Footer';
 import Nav from './component/Nav';
 import Servicepage from './component/Servicepage';
-import Faq from './component/Faq';
+// import Faq from './component/Faq';
 import About from './component/About';
 import Privacy from './component/Privacy';
 import Terms from './component/Terms';
+// import Vertical from "./component/Vertical";
+// import Successpt2 from './component/Successpt2';
 import React, { Component } from "react";
 import {
     BrowserRouter as Router,
@@ -36,8 +38,10 @@ function App() {
 
       </Routes>
     </Router>
-    
+   {/* <Vertical/>  */}
     <Footer/>
+    
+    
     </>
   )
 }

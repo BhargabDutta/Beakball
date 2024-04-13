@@ -7,7 +7,7 @@ import responsive from "../styles/responsive.module.css";
 export default function Servicepage_pt2() {
   return (
     <>
-      <div className={responsive.service_card_mobile}>
+      <div className={responsive.service_card_mobile} >
         <MDBContainer style={{ width: "100%",height: "fit-content" }}>
           <MDBRow>
             <MDBCol size='md'>
