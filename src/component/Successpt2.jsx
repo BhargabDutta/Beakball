@@ -47,7 +47,6 @@ export default function Successpt2() {
       >
         <SwiperSlide className={styles.desktop_swiperslide}>
           <img className={styles.desktop_slideimg} src={success1} />
-          hehehe
         </SwiperSlide>
         <SwiperSlide className={styles.desktop_swiperslide}>
           <img className={styles.desktop_slideimg} src={success2} />

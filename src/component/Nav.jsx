@@ -37,6 +37,11 @@ const Nav = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/portfolio" style={{ margin: "10px", color: "white" }}>PORTFOLIO</Link>
                 </li>
+
+                <li className="nav-item">
+                  <Link className="nav-link" to="/blog" style={{ margin: "10px", color: "white" }}>BLOG</Link>
+                </li>
+
                 <li className="nav-item">
                   <Link className="nav-link" to="/contact" style={{ borderRadius: "10px", backgroundColor: "blue", width: "max-content", margin: "10px", color: "white" }}>CONTACT US</Link>
                 </li>
@@ -47,9 +52,9 @@ const Nav = () => {
       </div>
       <div className={responsive.nav_mobile} >
         {/* <div style={{height:"60px",width:"100%"}}></div> */}
-        <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)",width:"100vw" }}>
+        <nav className="navbar navbar-expand-lg fixed-top" style={{ background: "rgba(0, 0, 0, 0.5)", backdropFilter: "blur(10px)", width: "100vw" }}>
           <div className="container-fluid">
-            
+
             <NavLink className="navbar-brand" exact to="/" ><img src={Logo} style={{ width: "35px", height: "auto", marginLeft: "0px" }} /></NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <svg
@@ -66,10 +71,15 @@ const Nav = () => {
               </svg>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div className="navbar-nav" style={{display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px", marginTop: "10px", marginBottom: "15px",height:"50px"}}>
+              <div className="navbar-nav" style={{ display: "flex", flexDirection: "row", gap: "10px", alignItems: "center", justifyContent: "center", padding: "0px", marginTop: "10px", marginBottom: "15px", height: "50px" }}>
                 <NavLink className="nav-link" to="/about" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>About</NavLink>
+
                 <NavLink className="nav-link" to="/service" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Service</NavLink>
+
                 <NavLink className="nav-link" to="/portfolio" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Portfolio</NavLink>
+
+                <NavLink className="nav-link" to="/blog" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", color: "white" }}>Blog</NavLink>
+
                 <NavLink className="nav-link" to="/contact" activeClassName="active-link" style={{ paddingLeft: "5px", paddingRight: "5px", paddingTop: "2px", paddingBottom: "2px", borderRadius: "10px", width: "auto", backgroundColor: "blue", color: "white" }}>Contact Us</NavLink>
               </div>
             </div>

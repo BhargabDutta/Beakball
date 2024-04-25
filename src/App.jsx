@@ -11,9 +11,11 @@ import Servicepage from './component/Servicepage';
 import About from './component/About';
 import Privacy from './component/Privacy';
 import Terms from './component/Terms';
+import Blog from './component/Blog';
 // import Vertical from "./component/Vertical";
 // import Successpt2 from './component/Successpt2';
-import React, { Component } from "react";
+import Test from "./component/Test";
+import React from "react";
 import {
     BrowserRouter as Router,
     Routes,
@@ -33,15 +35,15 @@ function App() {
           <Route path="/contact" element={<Contactpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfoliopage/>} />
+          <Route path="/blog" element={<Blog/>} />
           <Route path="/Privacy" element={<Privacy/>} />
           <Route path="/Terms" element={<Terms/>} />
 
       </Routes>
     </Router>
    {/* <Vertical/>  */}
+   {/* <Test/> */}
     <Footer/>
-    
-    
     </>
   )
 }
