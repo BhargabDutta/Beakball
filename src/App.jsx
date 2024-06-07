@@ -31,7 +31,7 @@ function App() {
     <Nav/>
       <Routes>
           <Route path="/" element={<Homescreen />} />
-          <Route path="/service" element={<Servicepage />} />
+          <Route path="/VR" element={<Servicepage />} />
           <Route path="/contact" element={<Contactpage />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfoliopage/>} />

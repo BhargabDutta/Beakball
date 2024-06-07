@@ -57,7 +57,7 @@ const Nav = () => {
                         SERVICES
                       </MDBDropdownToggle>
                       <MDBDropdownMenu>
-                        <MDBDropdownItem link><Link to="/service">Virtual Reality</Link></MDBDropdownItem>
+                        <MDBDropdownItem link><Link to="/VR">Virtual Reality</Link></MDBDropdownItem>
                         <MDBDropdownItem link href="https://beakballaugment.netlify.app/">Augmented Reality</MDBDropdownItem>
                         <MDBDropdownItem link>Artificial Intelligence</MDBDropdownItem>
                       </MDBDropdownMenu>
