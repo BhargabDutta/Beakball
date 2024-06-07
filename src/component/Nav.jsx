@@ -61,6 +61,13 @@ export default function App() {
             </MDBNavbarItem>
 
             <MDBNavbarItem>
+              <MDBNavbarLink>
+              <Link active aria-current='page' to='/portfolio' style={{color:"white",fontWeight:"bold"}}>
+                Portfolio
+              </Link></MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
             <MDBNavbarLink>
               <Link to='/blog' style={{color:"white",fontWeight:"bold"}}>Blog</Link>
             </MDBNavbarLink>
