@@ -4,7 +4,7 @@ import Form from "../component/Form";
 import responsive from "../styles/responsive.module.css";
 const Contactpage = () => {
   return (
-    <div style={{overflowX:"hidden",marginTop:"50px" }}>
+    <div style={{overflowX:"hidden",paddingTop:"50px" }}>
         <div className={responsive.contactflex}>
           <Profile/>
           <Form/>
