@@ -5,6 +5,21 @@ import Logo from "../assets/Logo.webp";
 import responsive from "../styles/responsive.module.css";
 import React, { Component } from "react";
 import {
+  MDBNavbar,
+  MDBContainer,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBDropdown,
+  MDBDropdownMenu,
+  MDBDropdownToggle,
+  MDBDropdownItem,
+  MDBNavbarBrand,
+} from 'mdb-react-ui-kit';
+import {
   BrowserRouter as Router,
   Routes,
   Route,
@@ -32,10 +47,22 @@ const Nav = () => {
                   <Link className="nav-link" to="/about" style={{ margin: "10px", color: "white" }}>ABOUT</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/service" style={{ margin: "10px", color: "white" }}>SERVICE</Link>
-                </li>
-                <li className="nav-item">
                   <Link className="nav-link" to="/portfolio" style={{ margin: "10px", color: "white" }}>PORTFOLIO</Link>
+                </li>
+
+                <li>
+                  <MDBNavbarItem>
+                    <MDBDropdown>
+                      <MDBDropdownToggle tag='a' className='nav-link' style={{ color: "white",cursor:"pointer" }}>
+                        SERVICES
+                      </MDBDropdownToggle>
+                      <MDBDropdownMenu>
+                        <MDBDropdownItem link><Link to="/service">Virtual Reality</Link></MDBDropdownItem>
+                        <MDBDropdownItem link href="https://beakballaugment.netlify.app/">Augmented Reality</MDBDropdownItem>
+                        <MDBDropdownItem link>Artificial Intelligence</MDBDropdownItem>
+                      </MDBDropdownMenu>
+                    </MDBDropdown>
+                  </MDBNavbarItem>
                 </li>
 
                 <li className="nav-item">
