@@ -79,8 +79,8 @@ export default function App() {
                   Services
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link>Virtual Reality</MDBDropdownItem>
-                  <MDBDropdownItem link>Augmented Reality</MDBDropdownItem>
+                  <MDBDropdownItem link href='http://virtual.beakball.com/'>Virtual Reality</MDBDropdownItem>
+                  <MDBDropdownItem link href='http://augment.beakball.com/'>Augmented Reality</MDBDropdownItem>
                   <MDBDropdownItem link>Artificial Intelligence</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
