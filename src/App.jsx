@@ -31,10 +31,10 @@ function App() {
     <Nav/>
       <Routes>
           <Route path="/" element={<Homescreen />} />
-          {/* <Route path="/VR" element={<Servicepage />} /> */}
+          <Route path="/VR" element={<Servicepage />} />
           <Route path="/contact" element={<Contactpage />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/portfolio" element={<Portfoliopage/>} /> */}
+          <Route path="/portfolio" element={<Portfoliopage/>} />
           <Route path="/blog" element={<Blog/>} />
           <Route path="/Privacy" element={<Privacy/>} />
           <Route path="/Terms" element={<Terms/>} />
