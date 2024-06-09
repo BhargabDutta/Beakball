@@ -24,14 +24,14 @@ export default function App() {
   const [openNavRight, setOpenNavRight] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' style={{position:"fixed",zIndex:"4",width:"100vw",height:"55px",backdropFilter:"blur(10px)",backgroundColor:"#00000080"}}>
+    <MDBNavbar expand='lg' style={{position:"fixed",zIndex:"4",width:"100vw",height:"55px",backgroundColor:"#00000080",backdropFilter:"blur(10px)"}}>
       <MDBContainer fluid style={{backdropFilter:"blur(10px)",paddingTop:"10px",paddingBottom:"10px"}}>
-      <MDBNavbarBrand href='#' style={{color:"white",fontWeight:"bold",gap:"10px"}}>
+      <MDBNavbarBrand href='https://www.beakball.com' style={{color:"white",fontWeight:"bold",gap:"10px"}}>
             <img
               src='https://www.beakball.com/assets/Logo-CjjAgmgS.webp'
               height='40'
               alt=''
-            /><Link to="/" style={{color:"white",fontWeight:"bold"}}>Beakball</Link></MDBNavbarBrand>
+            />Beakball</MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'
@@ -45,7 +45,7 @@ export default function App() {
         </MDBNavbarToggler>
 
         <MDBCollapse navbar open={openNavRight} style={{justifyContent:"right"}} >
-          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0' style={{gap:"40px",justifyContent:"center",cursor:"pointer"}}>
+          <MDBNavbarNav right fullWidth={false} className='mb-2 mb-lg-0' style={{gap:"10px",justifyContent:"center",cursor:"pointer"}}>
             <MDBNavbarItem>
               <MDBNavbarLink>
               <Link active aria-current='page' to='/' style={{color:"white",fontWeight:"bold"}}>
