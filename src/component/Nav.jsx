@@ -24,8 +24,8 @@ export default function App() {
   const [openNavRight, setOpenNavRight] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' style={{position:"fixed",zIndex:"4",width:"100vw",height:"55px",backgroundColor:"#00000080",backdropFilter:"blur(10px)"}}>
-      <MDBContainer fluid style={{backdropFilter:"blur(10px)",paddingTop:"10px",paddingBottom:"10px"}}>
+    <MDBNavbar expand='lg' style={{position:"fixed",zIndex:"4",width:"100vw",height:"fit-content",paddingTop:"0px",paddingBottom:"0px"}}>
+      <MDBContainer fluid style={{backgroundColor:"#00000080",backdropFilter:"blur(10px)",paddingTop:"10px",paddingBottom:"10px"}}>
       <MDBNavbarBrand href='https://www.beakball.com' style={{color:"white",fontWeight:"bold",gap:"10px"}}>
             <img
               src='https://www.beakball.com/assets/Logo-CjjAgmgS.webp'
