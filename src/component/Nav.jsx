@@ -31,7 +31,7 @@ export default function App() {
               src='https://www.beakball.com/assets/Logo-CjjAgmgS.webp'
               height='40'
               alt=''
-            />Beakball</MDBNavbarBrand>
+            /><Link to="/" style={{color:"white",fontWeight:"bold"}}>Beakball</Link></MDBNavbarBrand>
         <MDBNavbarToggler
           type='button'
           data-target='#navbarRightAlignExample'
@@ -60,12 +60,12 @@ export default function App() {
               </Link></MDBNavbarLink>
             </MDBNavbarItem>
 
-            <MDBNavbarItem>
+            {/* <MDBNavbarItem>
               <MDBNavbarLink>
               <Link active aria-current='page' to='/portfolio' style={{color:"white",fontWeight:"bold"}}>
                 Portfolio
               </Link></MDBNavbarLink>
-            </MDBNavbarItem>
+            </MDBNavbarItem> */}
 
             <MDBNavbarItem>
             <MDBNavbarLink>
@@ -79,7 +79,7 @@ export default function App() {
                   Services
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem link><Link to='/VR'>Virtual Reality</Link></MDBDropdownItem>
+                  <MDBDropdownItem link>Virtual Reality</MDBDropdownItem>
                   <MDBDropdownItem link>Augmented Reality</MDBDropdownItem>
                   <MDBDropdownItem link>Artificial Intelligence</MDBDropdownItem>
                 </MDBDropdownMenu>

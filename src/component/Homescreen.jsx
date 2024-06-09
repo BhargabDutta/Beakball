@@ -7,11 +7,11 @@ import Services from './Services';
 import Servicenext from './Servicenext';
 import Firstcarousel from './Firstcarousel';
 import Testimonialslider from './Testimonialslider';
-import Success from './Success';
+// import Success from './Success';
 // import Lastpartofhomescreen from './Lastpartofhomescreen';
 import backgroundVideo from '../assets/test.mp4'; // Import your video file
 import Successpt2 from './Successpt2';
-import Successpt3 from './Successpt3';
+// import Successpt3 from './Successpt3';
 import responsive from "../styles/responsive.module.css";
 const Homescreen = () => {
 //   const isHighResolution = window.matchMedia("(min-resolution: 2dppx)").matches;

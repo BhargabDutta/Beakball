@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/servicepage.module.css';
-import hero2 from '../assets/hero2.png';
+// import hero2 from '../assets/hero2.png';
 import Servicepage_pt2 from "../component/Servicepage_pt2";
 // import Test from './Test';
 import Whyneed from './Whyneed';
@@ -9,10 +9,10 @@ import Getstarted from './Getstarted';
 // import Success from './Success';
 import Successpt2 from './Successpt2';
 import backgroundVideo from '../assets/servicevideo.mp4';
-import Faq from './Faq';
+// import Faq from './Faq';
 import responsive from "../styles/responsive.module.css";
 // import Whyneed from './Whyneed';
-import Vertical from "./Vertical";
+// import Vertical from "./Vertical";
 const Servicepage = () => {
   return (
     <>
