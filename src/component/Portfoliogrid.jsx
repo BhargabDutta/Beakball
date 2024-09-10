@@ -17,7 +17,7 @@ export default function Portfoliogrid() {
             <hr style={{width:"100%",borderColor:"blue",borderWidth:"5px", margin:"0 auto"}}/>
             <MDBRow style={{display:"flex",alignItems:"start",justifyContent:"space-around",marginTop:"30px",margin:"30px"}}>
                 <MDBCol md='2' style={{ width: "300px",marginTop:"50px",height:"350px",borderRadius:"20px"}} className={responsive.portfoliocard}>
-                    <a href='https://hotel.beakball.com/' target='_blank' className={responsive.card_anchor}>
+                    <a href='https://beakhotel.beakball.com/' target='_blank' className={responsive.card_anchor}>
                     <Portfoliogrid_card 
                     img={card1}
                     title="Hotel "
