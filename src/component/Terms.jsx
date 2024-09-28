@@ -6,6 +6,7 @@ const Terms = () => {
         <div>
             <div className="privacy">
                 <div className="hero">
+                <div className="hero1">
                     <div className="right" style={{ textAlign: "center" }}>
                         <img style={{ height: "200px", width: "auto" }} src={emblem} alt="" srcset="" />
                         <h4>GOVERNMENT OF RAJASTHAN<br /><br />
@@ -28,7 +29,11 @@ const Terms = () => {
                                 <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Registration Date:</span><span style={{ fontWeight: "lighter" }}> 30 Mar 2024</span></li>
                             </h4></div>
                     </div>
+                    
                 </div>
+                <div className="number" style={{textAlign:"center", paddingTop:"20px"}}><h1>SAN : 8006540044000896</h1></div>
+                </div>
+
                 <div className="privacy_content">
                     <h1>Terms and Conditions for Beakball</h1>
                     <h2>Introduction</h2>
