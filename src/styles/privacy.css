@@ -1,6 +1,13 @@
 .privacy{
     padding: 5%;
 }
+.hero{
+    display:grid; 
+    grid-template-columns:1.5fr 1fr; 
+    padding-top:30px;
+    height: 100vh;
+    width: auto;
+}
 .privacy_content{
     margin-top: 5%;
 }
@@ -12,4 +19,11 @@
 }
 li{
     padding: 10px;
+}
+@media only screen and (max-width:400px){
+    .hero{
+        display:block; 
+        /* grid-template-columns:1.5fr 1fr;  */
+        margin-top:30px;
+    }
 }
