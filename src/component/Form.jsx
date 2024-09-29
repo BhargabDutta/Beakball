@@ -15,7 +15,7 @@ export default function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const scriptURL = "https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbybyvCrnAYLfzScI9axScQDtbqOjgNkgYYz4csm2QocIbecUlDK_IApEy13J0Ju3o5J/exec";
     try {
       // Create FormData from the form reference
       const formData = new FormData(formRef.current);
