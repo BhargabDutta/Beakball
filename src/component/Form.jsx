@@ -9,7 +9,7 @@ import responsive from "../styles/responsive.module.css";
 
 export default function Form() {
   useEffect(() => {
-    const scriptURL = "https://script.google.com/macros/s/AKfycbztT51PuK2hI47ftUS1X4bwkWQLrWG8Tup297QZqYhOAI_IqrQyna3u3oO2AvNcz2cjvg/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbx1WzaeT-guzxleZZXhqH9DUqIBt7hkOer-qfRLY1uYLbkTo6FVmB0c_CQIKBbTGf_5/exec";
     const form = document.forms["contact-form"];
 
     const handleSubmit = async (e) => {

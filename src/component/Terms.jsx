@@ -5,34 +5,37 @@ const Terms = () => {
     return (
         <div>
             <div className="privacy">
-                <div className="hero">
-                <div className="hero1">
-                    <div className="right" style={{ textAlign: "center" }}>
-                        <img style={{ height: "200px", width: "auto" }} src={emblem} alt="" srcset="" />
-                        <h4>GOVERNMENT OF RAJASTHAN<br /><br />
-                            Department of Statistics<br />
-                            Directorate of Economics & Statistics<br />
-                            Rajasthan, Jaipur<br /><br />
-                            Sanstha Aadhaar Number<br />
-                            (SAN)</h4>
-                    </div>
-                    <div className="left" style={{ textAlign: "left" }}>
-                        <div className="content">
+            <div className="hero">
+                    <div className="hero1">
+                        <div className="right">
+                            <img style={{ height: "200px", width: "auto" }} src={emblem} alt="emblem" />
                             <h4>
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Name of Institution:</span> <span style={{ fontWeight: "lighter" }}>BEAKBALL</span></li>
-
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Address:</span><span style={{ fontWeight: "lighter" }}>Arvian Coworking C-5, 1 Floor Shanti Nagar-C Gujar Ki Thari, GREATER JAIPUR Jaipur JAIPUR 302020</span>
-                                </li>
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Major Activity:</span> <span style={{ fontWeight: "lighter" }}>Other professional, scientific and technical activities n.e.c. (74909)</span></li>
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Registration in Act:</span><span style={{ fontWeight: "lighter" }}> Shop and Commercial establishments Act</span></li>
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Founder's Name:</span> <span style={{ fontWeight: "lighter" }}>Ramanand Soibam, Chairman</span></li>
-                                <li style={{ listStyle: "none" }}><span style={{ fontWeight: "bold" }}>Registration Date:</span><span style={{ fontWeight: "lighter" }}> 30 Mar 2024</span></li>
-                            </h4></div>
+                                GOVERNMENT OF RAJASTHAN<br /><br />
+                                Department of Statistics<br />
+                                Directorate of Economics & Statistics<br />
+                                Rajasthan, Jaipur<br /><br />
+                                Sanstha Aadhaar Number<br />
+                                (SAN)
+                            </h4>
+                        </div>
+                        <div className="left">
+                            <div className="content">
+                                <h4>
+                                    <li><span className="bold">Name of Institution:</span> BEAKBALL</li>
+                                    <li><span className="bold">Address:</span> Arvian Coworking C-5, 1 Floor Shanti Nagar-C Gujar Ki Thari, GREATER JAIPUR Jaipur JAIPUR 302020</li>
+                                    <li><span className="bold">Major Activity:</span> Other professional, scientific and technical activities n.e.c. (74909)</li>
+                                    <li><span className="bold">Registration in Act:</span> Shop and Commercial establishments Act</li>
+                                    <li><span className="bold">Founder's Name:</span> Ramanand Soibam, Chairman</li>
+                                    <li><span className="bold">Registration Date:</span> 30 Mar 2024</li>
+                                </h4>
+                            </div>
+                        </div>
                     </div>
-                    
+                    <div className="number" style={{width:"100%", textAlign:"center", paddingTop:"30px"}}>
+                        <h1>SAN : 8006540044000896</h1>
                 </div>
-                <div className="number" style={{textAlign:"center", paddingTop:"20px"}}><h1>SAN : 8006540044000896</h1></div>
                 </div>
+                
 
                 <div className="privacy_content">
                     <h1>Terms and Conditions for Beakball</h1>

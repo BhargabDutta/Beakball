@@ -1,35 +1,78 @@
-.privacy{
+/* Main privacy wrapper */
+.privacy {
     padding: 5%;
 }
-.hero{
+
+.hero {
     height: 100vh;
 }
-.hero1{
-    display:grid; 
-    grid-template-columns:1.5fr 1fr; 
-    padding-top:30px;
-    width: auto;
+
+.hero1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
 }
-.privacy_content{
+
+/* Right and Left sections */
+.right, .left {
+    width: 48%;
+    text-align: center;
+}
+
+/* Content styling */
+.privacy_content {
     margin-top: 5%;
 }
-.privacy_content>h2{
+
+.privacy_content > h2,
+.privacy_content > h3 {
     margin-top: 50px;
 }
-.privacy_content>h3{
-    margin-top: 50px;
-}
-li{
+
+li {
     padding: 10px;
+    list-style-type: none;
 }
-@media only screen and (max-width:400px){
-    .hero1{
-        display:block; 
-        /* grid-template-columns:1.5fr 1fr;  */
-        margin-top:30px;
-        
+
+.bold {
+    font-weight: bold;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: fit-content;
     }
-    .hero{
+
+    .hero1 {
+        flex-direction: column;
+    }
+
+    .right, .left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right {
+        order: 1;
+    }
+
+    .left {
+        order: 2;
+        text-align: left;
+        margin-top: 20px;
+    }
+}
+
+/* Additional small mobile tweaks */
+@media only screen and (max-width: 400px) {
+    .hero1 {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .hero {
         height: fit-content;
     }
 }
